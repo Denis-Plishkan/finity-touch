@@ -1,0 +1,89 @@
+// Заголовки, общие БЄМ блоки и проче...
+
+.button {
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: 0.4s;
+  border-radius: 4px;
+  background: linear-gradient(
+    92.23deg,
+    #ff56f6 21.43%,
+    #b936ee 50.63%,
+    #3bace2 100%,
+    #406aff 117.04%
+  );
+  clip-path: polygon(18% 0, 100% 0, 100% 77%, 88% 100%, 0 100%, 0 27%);
+
+  &::before {
+    background: linear-gradient(89.89deg, #42a6e3 2.33%, #ff56f6 101.4%);
+    content: "";
+    position: absolute;
+    top: 2px;
+    bottom: 2px;
+    left: 2px;
+    right: 2px;
+    border-radius: 2px;
+    z-index: -1;
+    transition: all 0.4s;
+  }
+  @media (min-width: 991px) {
+    &:hover {
+      svg {
+        transform: translateX(20px);
+      }
+      &:before {
+        opacity: 0;
+      }
+    }
+  }
+
+  span {
+    color: #fff;
+    font-family: Orbitron;
+    font-size: 19.898px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+
+    @media (max-width: 376px) {
+      font-size: 12px;
+      font-weight: 700;
+    }
+  }
+
+  svg {
+    transition: all 0.4s;
+  }
+}
+
+.button-second {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  background: linear-gradient(
+    270deg,
+    #ff56f6 21.43%,
+    #b936ee 50.63%,
+    #3bace2 100%,
+    #406aff 117.04%
+  );
+  &::before {
+    top: 3px;
+    border-radius: 2.211px;
+    bottom: 3px;
+    left: 3px;
+    right: 3px;
+    background: linear-gradient(284deg, #42a6e3 2.33%, #ff56f6 101.4%);
+  }
+  @media (min-width: 991px) {
+    &:hover {
+      svg {
+        transform: translateX(5px);
+      }
+    }
+  }
+}

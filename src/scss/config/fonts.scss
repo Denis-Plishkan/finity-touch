@@ -1,0 +1,60 @@
+@font-face {
+	font-family: icons;
+	font-display: swap;
+	src: url("../fonts/icons.woff2") format("woff2"), url("../fonts/icons.woff") format("woff");
+	font-weight: undefined;
+	font-style: normal;
+}
+
+[class^="icon-"]::before, [class*=" icon-"]::before {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'icons' !important;
+	speak: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+  
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-arrowLong:before {
+	content: "\e900";
+	color: #fff;
+  }
+  .icon-arrowShort:before {
+	content: "\e901";
+	color: #fff;
+  }
+  .icon-box:before {
+	content: "\e902";
+	color: #fff;
+  }
+  .icon-instagram:before {
+	content: "\e903";
+	color: #fff;
+  }
+  .icon-play:before {
+	content: "\e904";
+	color: #fff;
+  }
+  .icon-social:before {
+	content: "\e905";
+	color: #fff;
+  }
+  .icon-twitter:before {
+	content: "\e906";
+	color: #fff;
+  }
+  .icon-user:before {
+	content: "\e907";
+	color: #fff;
+  }
+  .icon-youtube:before {
+	content: "\e908";
+	color: #fff;
+  }
+  
