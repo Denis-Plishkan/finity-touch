@@ -1,0 +1,252 @@
+.found {
+  margin-top: 222px;
+
+  @media(max-width: 768px) {
+    margin-bottom: 71px;
+  }
+
+  @media (max-width: 376px) {
+    margin-top: 0;
+  }
+  // .found__container
+
+  &__container {
+    max-width: 1601px;
+    padding: 0;
+
+    @media (max-width: 1580px) {
+      padding: 0 15px;
+    }
+    @media (max-width: 376px) {
+      padding: 0;
+    }
+  }
+
+  // .found__content-wrapper
+
+  &__content-wrapper {
+    display: flex;
+    @media (max-width: 1580px) {
+      flex-direction: column;
+    }
+    @media (max-width: 768px) {
+      align-items: center;
+    }
+  }
+
+  // .found__content-left
+
+  &__content-left {
+    max-width: 820px;
+
+    @media (max-width: 768px) {
+      max-width: 370px;
+    }
+
+    img {
+      @media (max-width: 768px) {
+        width: 100%;
+        height: 307px;
+      }
+    }
+  }
+
+  // .found__content-right
+
+  &__content-right {
+    
+  }
+
+  // .found__content-title
+
+  &__content-title {
+    max-width: 729px;
+    padding-left: 49px;
+    padding-bottom: 25px;
+    padding-top: 55px;
+    position: relative;
+    @media (max-width: 768px) {
+      max-width: 292px;
+      padding-top: 0;
+    }
+
+    @media (max-width: 376px) {
+      padding-left: 30px;
+      padding-bottom: 5px;
+    }
+
+    h3 {
+      font-family: ChakraPetch;
+      font-size: 85px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      letter-spacing: -1.7px;
+
+      @media (max-width: 768px) {
+        font-size: 30px;
+      }
+      @media (max-width: 376px) {
+        letter-spacing: 0;
+      }
+    }
+
+    svg {
+      position: absolute;
+      right: -11px;
+      top: 51px;
+
+      @media (max-width: 768px) {
+        right: -18px;
+        top: -20px;
+        width: 39px;
+      }
+    }
+  }
+
+  // .found__span-first
+
+  &__span-first {
+    background: var(
+      --accent-4,
+      linear-gradient(149deg, #b2ff0f 10.47%, #76ffef 88.29%)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  // .found__span-second
+
+  &__span-second {
+    background: var(
+      --accent-4,
+      linear-gradient(149deg, #b2ff0f 10.47%, #76ffef 88.29%)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  // .found__content-text
+
+  &__content-text {
+    max-width: 719px;
+    padding-left: 63px;
+    padding-bottom: 91px;
+    position: relative;
+    display: inline-block;
+    @media (max-width: 768px) {
+      max-width: 310px;
+      padding-left: 15px;
+      text-align: center;
+      padding-bottom: 35px;
+    }
+    p {
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: 0.75px;
+
+      @media (max-width: 768px) {
+        font-size: 13px;
+      }
+    }
+
+    svg {
+      position: absolute;
+      left: 0;
+      bottom: 26px;
+
+      @media (max-width: 768px) {
+        left: 2px;
+        bottom: 0;
+        width: 39px;
+      }
+    }
+  }
+
+  &__content-line {
+    position: relative;
+    display: inline-block;
+  }
+
+  &__line-top {
+    position: absolute;
+    right: 23px;
+    bottom: -151px;
+
+    @media (max-width: 768px) {
+      bottom: -115px;
+    }
+
+    svg {
+      @media (max-width: 768px) {
+        width: 290px;
+      }
+    }
+  }
+
+  &__line-bottom {
+    position: absolute;
+    right: 23px;
+    bottom: -174px;
+
+    @media (max-width: 768px) {
+      bottom: -125px;
+    }
+
+    svg {
+      @media (max-width: 768px) {
+        width: 290px;
+      }
+    }
+  }
+
+  &__line-text {
+    position: absolute;
+    right: -13px;
+    bottom: -169px;
+
+    @media (max-width: 768px) {
+      right: -2px;
+      bottom: -125px;
+    }
+
+    img {
+      @media (max-width: 768px) {
+        width: 8px;
+      }
+    }
+  }
+
+  &__button {
+    width: 230px;
+
+    @media (max-width: 768px) {
+      width: 183px;
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    a {
+        border: 3px solid var(--accent-4, #b2ff0f);
+        font-size: 27px;
+  
+        @media (max-width: 768px) {
+          font-size: 15px;
+          padding: 8px 0px;
+          width: 180px;
+        }
+      }
+
+    svg {
+      @media (max-width: 768px) {
+        width: 13px;
+      }
+    }
+  }
+
+  
+}

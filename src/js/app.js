@@ -67,7 +67,7 @@ isWebp()
 // =======================================================================================================
 
 import burger from './modules/burger.js'
-import nftSwiper from './modules/swiper.js'
-import tabCollection from './modules/tab.js'
-import cardUser from './modules/swiper.js'
-import footerDropdown from './modules/dropdown.js'
+import thesisSwiper from './modules/swiper.js'
+import teamSwiper from './modules/swiper.js'
+import cardsSwiper from './modules/swiper.js'
+import freqDropdown from './modules/dropdown.js'

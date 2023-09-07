@@ -1,0 +1,185 @@
+.thesis {
+
+    @media(max-width: 376px) {
+        margin-bottom: 31px;
+    }
+  // .thesis__container
+
+  &__container {
+    padding: 0 17px;
+
+    @media(max-width: 376px) {
+        padding: 0 0 0 51px;
+    }
+  }
+
+  // .thesis__title
+
+  &__title {
+    text-align: center;
+    padding-right: 53px;
+    padding-bottom: 47px;
+
+    @media(max-width: 768px) {
+        padding-right: 0;
+    }
+    @media(max-width: 376px) {
+        text-align: left;
+        padding-left: 7px;
+        padding-bottom: 31px;
+    }
+    h2 {
+      font-family: ChakraPetch;
+      font-size: 60px;
+      font-style: normal;
+      font-weight: 700;
+
+      @media(max-width: 768px) {
+        font-size: 24px;
+    }
+
+      span {
+        background: var(
+          --accent-2,
+          linear-gradient(
+            104deg,
+            #54d6ff 13.23%,
+            #c275ff 56.28%,
+            #f36aff 91.95%
+          )
+        );
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+  }
+
+  // .thesis__swiper
+
+  &__swiper {
+    @media(max-width: 376px) {
+        padding-left: 34px;
+    }
+  }
+
+  // .thesis__card-wrapper
+
+  &__card-wrapper {
+    width: 350px;
+    min-height: 348px;
+    border-radius: 60px;
+    border: 1px solid #86affe;
+    box-shadow: 2px 2px 9px 0px #91009d;
+    padding: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    @media(max-width: 768px) {
+        min-height: 219px;
+        width: 238px;
+        padding: 15px;
+    }
+    @media(max-width: 376px) {
+        border-radius: 40px;
+        padding: 15px 14px;
+    }
+
+  }
+
+  // .thesis__card-icon
+
+  &__card-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+
+    @media(max-width: 376px) {
+        gap: 13px;
+    }
+
+    svg {
+        @media(max-width: 768px) {
+            width: 50px;
+            height: 50px;
+        }
+    }
+  }
+
+  // .thesis__card-title
+
+  &__card-title {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+
+    @media(max-width: 376px) {
+        gap: 18px;
+    }
+    h3 {
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 600;
+      text-align: center;
+
+      @media(max-width: 768px) {
+        font-size: 16px;
+    }
+    }
+  }
+
+  // .thesis__card-text
+
+  &__card-text {
+    padding-left: 7px;
+    text-align: center;
+    p {
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: 0.36px;
+
+      @media(max-width: 768px) {
+        font-size: 12px;
+        letter-spacing: 0.24px;
+    }
+    }
+  }
+  &__card-btn {
+    text-align: center;
+
+    a {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        background: var(
+          --accent-7,
+          linear-gradient(104deg, #86affe 13.23%, #a57aff 53.2%, #fb84ff 91.95%)
+        );
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+        @media(max-width: 768px) {
+            font-size: 15px;
+        }
+      }
+  }
+}
+.swiper {
+}
+.swiper-wrapper {
+}
+.swiper-slide {
+}
+.swiper-pagination {
+}
+.swiper-button-prev {
+    opacity: 0;
+}
+.swiper-button-next {
+    opacity: 0;
+}
