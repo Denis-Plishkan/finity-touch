@@ -1,0 +1,231 @@
+.road {
+  // .road__container
+
+  &__container {
+  }
+
+  // .road__title
+
+  &__title {
+    text-align: center;
+    padding-bottom: 33px;
+    h3 {
+      font-family: ChakraPetch;
+      font-size: 61px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      letter-spacing: 6.71px;
+    }
+  }
+
+  // .road__text
+
+  &__text {
+    max-width: 1113px;
+    margin: 0 auto;
+    padding-bottom: 98px;
+    p {
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 38.75px;
+      text-align: center;
+    }
+  }
+
+  // .road__step
+
+  &__step {
+    // text-align: center;
+    padding-top: 59px;
+    position: absolute;
+    right: 45%;
+  }
+
+  &__step-title {
+    padding-bottom: 8px;
+    h5 {
+      font-family: ChakraPetch;
+      font-size: 37px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: 4.07px;
+    }
+  }
+
+  &__step-text {
+    padding-left: 4px;
+    p {
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 500;
+    }
+  }
+
+  &__step-step {
+    p {
+      font-family: ChakraPetch;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      letter-spacing: 3.3px;
+    }
+  }
+
+  // .road__step1
+
+  &__step1 {
+    position: relative;
+    left: 878px;
+    bottom: 6px;
+  }
+
+  &__step1-wrapper {
+    position: absolute;
+    top: 39px;
+    left: 72px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  &__step1-step {
+    position: absolute;
+    left: -285px;
+    top: 35px;
+  }
+
+  // .road__step2
+
+  &__step2 {
+    position: relative;
+    bottom: 58px;
+  }
+
+  &__step2-wrapper {
+    position: absolute;
+    top: 41px;
+    left: 53px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+  }
+
+  &__step2-text {
+    p {
+      font-size: 22px;
+    }
+  }
+
+  &__step2-step {
+    position: absolute;
+    left: 694px;
+    width: 128px;
+    top: 34px;
+
+  }
+
+  // .road__step3
+
+  &__step3 {
+    position: relative;
+    left: 875px;
+    bottom: 137px;
+  }
+
+  &__step3-wrapper {
+    position: absolute;
+    top: 41px;
+    left: 77px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  &__step3-step {
+    position: absolute;
+    right: 533px;
+    width: 120px;
+    top: 37px;
+  }
+
+  // .road__step4
+
+  &__step4 {
+    position: relative;
+    bottom: 184px;
+  }
+
+  &__step4-wrapper {
+    position: absolute;
+    top: 38px;
+    left: 56px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  &__step4-step {
+    position: absolute;
+    left: 693px;
+    width: 120px;
+    top: 37px;
+  }
+
+  // .road__step5
+
+  &__step5 {
+    position: relative;
+    left: 875px;
+    bottom: 239px;
+  }
+
+  &__step5-wrapper {
+    position: absolute;
+    top: 41px;
+    left: 77px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  &__step5-step {
+    position: absolute;
+    right: 650px;
+    width: 120px;
+    top: 37px;
+  }
+
+  // .road__step6
+
+  &__step6 {
+    position: relative;
+    bottom: 257px;
+  }
+
+  &__step6-wrapper {
+    position: absolute;
+    top: 39px;
+    left: 56px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  &__step6-text {
+    p {
+      font-size: 22px;
+    }
+  }
+
+  &__step6-step {
+    position: absolute;
+    left: 801px;
+    width: 120px;
+    top: 25px;
+  }
+}

@@ -1,0 +1,145 @@
+.contacts {
+  margin-top: 143px;
+
+  @media (max-width: 768px) {
+    margin-top: 100px;
+    margin-bottom: 77px;
+  }
+  // .contacts__container
+
+  &__container {
+    max-width: 1840px;
+  }
+
+  // .contacts__wrapper
+
+  &__wrapper {
+    position: relative;
+  }
+
+  // .contacts__title
+
+  &__title {
+    padding-top: 140px;
+    padding-left: 63px;
+    text-align: center;
+    @media (max-width: 768px) {
+      padding: 0;
+    }
+    h4 {
+      font-size: 50px;
+      font-style: normal;
+      font-weight: 700;
+
+      @media (max-width: 768px) {
+        font-size: 21px;
+      }
+    }
+  }
+
+  // .contacts__form
+
+  &__form {
+    display: flex;
+    justify-content: center;
+
+    form {
+      max-width: 611px;
+      padding-top: 18px;
+      padding-left: 27px;
+
+      @media (max-width: 768px) {
+        max-width: 298px;
+        padding-top: 0px;
+        padding-left: 0px;
+      }
+
+      label {
+        width: 611px;
+        color: var(--main-text-2, #959595);
+        font-family: Montserrat;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 500;
+        position: relative;
+        top: 43px;
+        left: 14px;
+
+        @media (max-width: 768px) {
+          font-size: 13px;
+          left: 10px;
+        }
+      }
+
+      input {
+        background: inherit;
+        padding: 31px 209px 10px 10px;
+        border-bottom: 3px solid var(--accent-1, #fc84ff);
+        font-size: 25px;
+        padding-left: 103px;
+        @media (max-width: 768px) {
+          padding-left: 59px;
+          padding: 9px 3px 10px 10px;
+          font-size: 24px;
+        }
+      }
+
+      textarea {
+        background: inherit;
+        padding: 13px 165px 3px 10px;
+        border-bottom: 3px solid var(--accent-1, #fc84ff);
+        padding-left: 226px;
+        font-size: 20px;
+
+        @media (max-width: 768px) {
+          padding-left: 95px;
+          padding: 0 70px 3px 10px;
+        }
+      }
+    }
+  }
+
+  &__coin-left {
+    position: absolute;
+    top: 52px;
+
+    @media (max-width: 1530px) {
+      display: none;
+    }
+  }
+
+  &__coin-right {
+    position: absolute;
+    right: 98px;
+    bottom: 38px;
+
+    @media (max-width: 1530px) {
+      display: none;
+    }
+  }
+
+  &__button-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 56px;
+    padding-left: 29px;
+
+    @media (max-width: 768px) {
+      padding-top: 28px;
+      padding-left: 3px;
+    }
+  }
+
+  &__button {
+    background: inherit;
+    border: 2px solid var(--accent-1, #fc84ff);
+    width: 221px;
+    padding: 17px;
+
+    @media (max-width: 768px) {
+      font-size: 19px;
+      width: 132px;
+      padding: 7px 1px;
+    }
+  }
+}

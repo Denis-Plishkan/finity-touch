@@ -1,0 +1,16 @@
+.part {
+  @media (max-width: 376px) {
+    margin-bottom: 85px;
+  }
+
+  // .part__container
+
+  &__container {
+  }
+
+  &__wrapper {
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+}

@@ -1,46 +1,28 @@
 <header class="header">
   <div class="header__container">
-    <div class="header__logo-wrapper">
-      <a href="#" class="header__logo-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" width="130" height="140" viewBox="0 0 130 140" fill="none">
-          <g filter="url(#filter0_bd_2_253)">
-            <path d="M14.0921 20.8186L5.8623 15.9619L14.0871 27.5563L22.321 15.9619L14.0871 20.8186H14.0921ZM14.2144 0.745605L5.98798 14.3994L14.2144 19.2645L22.4442 14.4044L14.2144 0.745605Z" fill="url(#paint0_linear_2_253)"/>
-          </g>
-          <defs>
-            <filter id="filter0_bd_2_253" x="-206.386" y="-211.503" width="441.078" height="451.307" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-              <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-              <feGaussianBlur in="BackgroundImageFix" stdDeviation="106.124"/>
-              <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_2_253"/>
-              <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-              <feOffset dy="4.42184"/>
-              <feGaussianBlur stdDeviation="53.6148"/>
-              <feComposite in2="hardAlpha" operator="out"/>
-              <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 0.337255 0 0 0 0 0.964706 0 0 0 0.51 0"/>
-              <feBlend mode="normal" in2="effect1_backgroundBlur_2_253" result="effect2_dropShadow_2_253"/>
-              <feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_2_253" result="shape"/>
-            </filter>
-            <linearGradient id="paint0_linear_2_253" x1="5.8623" y1="0.745605" x2="26.0134" y2="1.23055" gradientUnits="userSpaceOnUse">
-              <stop offset="0.183111" stop-color="#FF56F6"/>
-              <stop offset="0.432593" stop-color="#B936EE"/>
-              <stop offset="0.854443" stop-color="#3BACE2"/>
-              <stop offset="1" stop-color="#406AFF"/>
-            </linearGradient>
-          </defs>
-        </svg>
-      </a>
-      <a href="#" class="header__logo logo">
-        <p>Ocean<span>NFT</span></p>
-      </a>
-    </div>
+    <a href="#" class="header__logo">
+        <img src="./images/Logo.png" alt="logo">
+    </a>
     <nav class="header__menu menu">
       <ul class="menu__list">
-        <li class="menu__item"><a href="#" class="menu__link">Market</a></li>
-        <li class="menu__item"><a href="#" class="menu__link">Features</a></li>
-        <li class="menu__item"><a href="#" class="menu__link">Community</a></li>
+        <li class="menu__item"><a href="./index.html" class="menu__link">Home</a></li>
+        <li class="menu__item"><a href="#" class="menu__link">Marketplace</a></li>
+        <li class="menu__item"><a href="./token.html" class="menu__link">Token</a></li>
+        <li class="menu__item"><a href="#" class="menu__link">Fund</a></li>
       </ul>
-      <div class="header__icon icon">
-        <a href="#" class="icon__box icon-box"></a>
-        <a href="#" class="icon__user icon-user"></a>
+      <select class="header__select">
+        <option class="header__option" selected>EN</option>
+        <option class="header__option">UA</option>
+        <option class="header__option">FR</option>
+        <option class="header__option">DE</option>
+      </select>
+      <div class="header__button-wrapper">
+        <div class="header__button-left">
+          <a href="#" class="button-black">Contact Us</a>
+        </div>
+        <div class="header__button-right">
+          <a href="#" class="button"><span>Buy Token</span></a>
+        </div>
       </div>
     </nav>
     <div class="icon-menu">

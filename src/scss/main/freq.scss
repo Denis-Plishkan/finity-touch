@@ -1,0 +1,152 @@
+.freq {
+  margin-top: 152px;
+
+  @media (max-width: 376px) {
+    margin-top: 85px;
+  }
+  // .freq__container
+
+  &__container {
+    
+  }
+
+  // .freq__wrapper
+
+  &__wrapper {
+    display: flex;
+    gap: 8px;
+
+    @media (max-width: 1350px) {
+      flex-direction: column;
+    }
+  }
+
+  // .freq__left
+
+  &__left {
+  }
+
+  // .freq__left-title
+
+  &__left-title {
+    text-align: center;
+    h4 {
+      font-family: ChakraPetch;
+      font-size: 60px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: 1.2px;
+      background: var(
+        --accent-8,
+        linear-gradient(144deg, #ffb78f 11.79%, #db73ff 85.69%)
+      );
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+
+      @media (max-width: 768px) {
+        font-size: 30px;
+        letter-spacing: 0.6px;
+      }
+    }
+  }
+
+  // .freq__left-img
+
+  &__left-img {
+    @media (max-width: 1350px) {
+      text-align: center;
+    }
+    img {
+      @media (max-width: 768px) {
+        width: 100%;
+      }
+      @media (max-width: 376px) {
+        height: 230px;
+      }
+    }
+  }
+
+  // .freq__right
+
+  &__right {
+    padding-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+
+    @media (max-width: 376px) {
+        padding: 0 22px;
+        gap: 8px;
+      }
+  }
+
+  // .freq__inner-ul
+
+  &__inner-ul {
+    border: 1px solid wheat;
+    padding: 30px 28px 31px 20px;
+    border-radius: 10px;
+    border: 1px solid var(--accent-1, #fc84ff);
+    background: var(--main-black, #0d0d0d);
+    box-shadow: 2px 2px 20px 0px rgba(239, 57, 255, 0.3);
+
+    @media (max-width: 376px) {
+        padding: 15px 15px 6px 13px;
+    }
+  }
+}
+.dropdown-toggle {
+  display: flex;
+  flex-direction: column;
+  padding-top: 6px;
+  gap: 9px;
+  opacity: 0;
+  overflow: hidden;
+  max-height: 0;
+  visibility: hidden;
+  height: 0;
+  transition: all 0.4s;
+  &.active {
+    opacity: 1;
+    overflow: visible;
+    max-height: 500px;
+    visibility: visible;
+    height: 100%;
+  }
+}
+
+.dropdown {
+  &__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+
+    @media (max-width: 768px) {
+      font-size: 14px;
+    }
+
+    svg {
+      @media (max-width: 376px) {
+        width: 18px;
+      }
+    }
+  }
+
+  ul {
+    p {
+      color: var(--main-text-2, #959595);
+      font-size: 19px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 34.2px;
+      @media (max-width: 768px) {
+        font-size: 12px;
+      }
+    }
+  }
+}

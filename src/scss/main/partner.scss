@@ -1,0 +1,35 @@
+.partner {
+
+    @media(max-width: 376px) {
+        margin-bottom: 38px;
+      }
+
+    // .partner__container
+
+    &__container {
+    }
+
+    &__wrapper {
+        display: none;
+
+        @media(max-width: 376px) {
+            display: flex;
+        }
+    }
+}
+
+.partners {
+
+    &__icon {
+        
+        @media(max-width: 376px) {
+            height: 65px;
+        }
+
+        img {
+            @media(max-width: 376px) {
+                height: 100%;
+            }
+        }
+    }
+}

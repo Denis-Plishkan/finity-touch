@@ -1,0 +1,166 @@
+.follow {
+  margin-top: 176px;
+
+  @media (max-width: 768px) {
+    margin-top: 120px;
+  }
+  // .follow__container
+
+  &__container {
+    @media (max-width: 376px) {
+      padding: 0 36px;
+    }
+  }
+
+  // .follow__title
+
+  &__title {
+    text-align: center;
+    h4 {
+      font-family: ChakraPetch;
+      font-size: 60px;
+      font-style: normal;
+      font-weight: 700;
+
+      @media (max-width: 768px) {
+        font-size: 21px;
+      }
+    }
+  }
+
+  // .follow__img-wrapper
+
+  &__img-wrapper {
+    position: relative;
+  }
+
+  // .follow__img-tel
+
+  &__img-tel {
+    text-align: center;
+    margin-top: 375px;
+
+    @media (max-width: 768px) {
+      margin-top: 112px;
+    }
+
+    img {
+      @media (max-width: 1200px) {
+        width: 100%;
+      }
+    }
+  }
+
+  // .follow__img-linkedin
+
+  &__img-linkedin {
+    position: absolute;
+    top: -290px;
+    left: 52%;
+
+    @media (max-width: 768px) {
+      top: -67px;
+    }
+
+    img {
+      @media (max-width: 1200px) {
+        width: 58px;
+      }
+    }
+  }
+
+  // .follow__img-diskord
+
+  &__img-diskord {
+    position: absolute;
+    top: -190px;
+    left: 488px;
+
+    @media (max-width: 768px) {
+      top: -44px;
+      left: 83px;
+    }
+
+    img {
+      @media (max-width: 1200px) {
+        width: 58px;
+      }
+    }
+  }
+
+  // .follow__img-telegram
+
+  &__img-telegram {
+    position: absolute;
+    top: 22px;
+    left: 382px;
+
+    @media (max-width: 768px) {
+      top: 8px;
+      left: 62px;
+    }
+
+    img {
+      @media (max-width: 1200px) {
+        width: 58px;
+      }
+    }
+  }
+
+  // .follow__img-reddit
+
+  &__img-reddit {
+    position: absolute;
+    right: 38%;
+    top: -14px;
+
+    @media (max-width: 768px) {
+      right: 36%;
+      top: 0px;
+    }
+
+    img {
+      @media (max-width: 1200px) {
+        width: 58px;
+      }
+    }
+  }
+
+  // .follow__img-twitter
+
+  &__img-twitter {
+    position: absolute;
+    right: 337px;
+    top: 53px;
+
+    @media (max-width: 768px) {
+      right: 48px;
+      top: 11px;
+    }
+
+    img {
+      @media (max-width: 1200px) {
+        width: 58px;
+      }
+    }
+  }
+
+  // .follow__img-instagram
+
+  &__img-instagram {
+    position: absolute;
+    bottom: 18px;
+    left: 463px;
+
+    @media (max-width: 768px) {
+      bottom: 7px;
+      left: 80px;
+    }
+
+    img {
+      @media (max-width: 1200px) {
+        width: 58px;
+      }
+    }
+  }
+}
