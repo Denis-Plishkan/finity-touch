@@ -1,0 +1,85 @@
+.adress {
+    margin-bottom: 118px;
+
+    @media(max-width: 920px) {
+        display: none;
+    }
+  // .adress__container 
+
+  &__container {
+  }
+
+  // .adress__title
+
+  &__title {
+    text-align: center;
+    padding-bottom: 25px;
+    h6 {
+      font-family: ChakraPetch;
+      font-size: 64px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+
+      span {
+        background: linear-gradient(117deg, #fc84ff 3.43%, #54d1fa 38.39%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+  }
+
+  // .adress__text
+
+  &__text {
+    text-align: center;
+    padding-bottom: 74px;
+    p {
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 500;
+    }
+  }
+
+  // .adress__token-adress
+
+  &__token-adress {
+  }
+}
+.token {
+  // .token__adress-wrapper
+
+  &__adress-wrapper {
+    border-radius: 50px;
+    border: 1px solid var(--main-white, #fff);
+    max-width: 863px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  // .token__adress-text
+
+  &__adress-text {
+    padding: 35px 2px 38px 33px;
+    p {
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+    }
+  }
+
+  // .token__adress-button
+
+  &__adress-button {
+    padding-right: 10px;
+    button {
+      padding: 20px 43px;
+      display: flex;
+      align-items: center;
+      gap: 13px;
+    }
+  }
+}

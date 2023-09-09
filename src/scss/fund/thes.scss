@@ -1,0 +1,10 @@
+.thes {
+  @media (max-width: 376px) {
+    margin-bottom: 67px;
+  }
+  &__container {
+    @media (max-width: 376px) {
+      padding-left: 34px;
+    }
+  }
+}

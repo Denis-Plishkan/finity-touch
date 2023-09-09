@@ -1,0 +1,55 @@
+.tokenContact {
+  margin-bottom: 247px;
+
+  @media (max-width: 920px) {
+    margin-bottom: 84px;
+  }
+  // .tokenContact__container
+
+  &__container {
+    max-width: 1840px;
+    position: relative;
+
+    @media (max-width: 520px) {
+      padding: 0 33px 0 0;
+    }
+  }
+
+  &__title {
+    padding-top: 22px;
+    padding-left: 58px;
+    text-align: center;
+    @media(max-width: 768px) {
+      padding-left: 0;
+    }
+    h4 {
+      font-size: 50px;
+      font-style: normal;
+      font-weight: 700;
+
+      @media(max-width: 768px) {
+        font-size: 21px;
+      }
+    }
+  }
+
+  &__coin-right {
+    position: absolute;
+    top: -43px;
+    right: 109px;
+
+    @media (max-width: 1530px) {
+      display: none;
+    }
+  }
+
+  &__coin-left {
+    position: absolute;
+    top: 348px;
+    left: 171px;
+
+    @media (max-width: 1530px) {
+      display: none;
+    }
+  }
+}

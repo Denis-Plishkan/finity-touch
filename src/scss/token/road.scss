@@ -1,4 +1,9 @@
 .road {
+  margin-bottom: 0;
+
+  @media(max-width: 1530px) {
+    margin-bottom: 172px;
+  }
   // .road__container
 
   &__container {
@@ -16,6 +21,11 @@
       font-weight: 600;
       line-height: normal;
       letter-spacing: 6.71px;
+
+      @media (max-width: 520px) {
+        font-size: 30px;
+        letter-spacing: 3.3px;
+      }
     }
   }
 
@@ -25,12 +35,19 @@
     max-width: 1113px;
     margin: 0 auto;
     padding-bottom: 98px;
+    @media (max-width: 520px) {
+      padding-bottom: 24px;
+    }
     p {
       font-size: 25px;
       font-style: normal;
       font-weight: 500;
       line-height: 38.75px;
       text-align: center;
+
+      @media (max-width: 520px) {
+        display: none;
+      }
     }
   }
 
@@ -77,6 +94,12 @@
 
   // .road__step1
 
+  &__step-desktop {
+    @media (max-width: 1584px) {
+      display: none;
+    }
+  }
+
   &__step1 {
     position: relative;
     left: 878px;
@@ -112,7 +135,6 @@
     display: flex;
     flex-direction: column;
     gap: 40px;
-
   }
 
   &__step2-text {
@@ -126,7 +148,6 @@
     left: 694px;
     width: 128px;
     top: 34px;
-
   }
 
   // .road__step3
@@ -210,7 +231,7 @@
   &__step6-wrapper {
     position: absolute;
     top: 39px;
-    left: 56px;
+    left: 53px;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -227,5 +248,176 @@
     left: 801px;
     width: 120px;
     top: 25px;
+  }
+
+  &__step-mobile {
+    display: none;
+    @media (max-width: 1584px) {
+      display: block;
+    }
+  }
+
+  &__mobile-title {
+    h5 {
+      font-family: ChakraPetch;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: 1.65px;
+    }
+  }
+
+  &__mobile-text {
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  &__mobile-step {
+    p {
+      font-family: ChakraPetch;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      letter-spacing: 1.54px;
+    }
+  }
+
+  &__mobile-stepImg {
+    position: relative;
+    @media (max-width: 520px) {
+      left: 7px;
+    }
+    img {
+      position: absolute;
+    }
+  }
+
+  &__mobile1 {
+    position: relative;
+    left: 64px;
+    bottom: 19px;
+  }
+
+  &__mobile-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+  }
+
+  &__mobile1-wrapper {
+    position: absolute;
+    top: 16px;
+    left: 25px;
+  }
+
+  &__mobile1-step {
+    position: absolute;
+    transform: rotate(-90deg);
+    left: -73px;
+    top: 65px;
+  }
+
+  &__mobile2 {
+    position: relative;
+    left: 64px;
+    top: 12px;
+  }
+
+  &__mobile2-text {
+    p {
+      font-size: 10px;
+    }
+  }
+
+  &__mobile2-wrapper {
+    position: absolute;
+    top: 16px;
+    left: 25px;
+  }
+
+  &__mobile2-step {
+    position: absolute;
+    transform: rotate(-90deg);
+    left: -74px;
+    top: 63px;
+  }
+
+  &__mobile3 {
+    position: relative;
+    left: 64px;
+    top: 43px;
+  }
+
+  &__mobile3-wrapper {
+    position: absolute;
+    top: 16px;
+    left: 25px;
+  }
+
+  &__mobile3-step {
+    position: absolute;
+    transform: rotate(-90deg);
+    left: -76px;
+    top: 60px;
+  }
+
+  &__mobile4 {
+    position: relative;
+    left: 64px;
+    top: 74px;
+  }
+
+  &__mobile4-wrapper {
+    position: absolute;
+    top: 16px;
+    left: 25px;
+  }
+
+  &__mobile4-step {
+    position: absolute;
+    transform: rotate(-90deg);
+    left: -74px;
+    top: 60px;
+  }
+
+  &__mobile5 {
+    position: relative;
+    left: 64px;
+    top: 103px;
+  }
+
+  &__mobile5-wrapper {
+    position: absolute;
+    top: 16px;
+    left: 25px;
+  }
+
+  &__mobile5-step {
+    position: absolute;
+    transform: rotate(-90deg);
+    left: -74px;
+    top: 63px;
+  }
+
+  &__mobile6 {
+    position: relative;
+    left: 64px;
+    top: 136px;
+  }
+
+  &__mobile6-wrapper {
+    position: absolute;
+    top: 16px;
+    left: 25px;
+  }
+
+  &__mobile6-step {
+    position: absolute;
+    left: -85px;
+    top: 53px;
   }
 }

@@ -26,6 +26,9 @@
   // .hero__content-left
 
   &__content-left {
+    @media(max-width: 768px) {
+      text-align: center;
+    }
   }
 
   // .hero__content-title
@@ -71,7 +74,7 @@
       font-weight: 500;
       line-height: normal;
 
-      @media (max-width: 768px) {
+      @media (max-width: 769px) {
         font-size: 22px;
       }
     }
@@ -104,6 +107,10 @@
     display: flex;
     gap: 21px;
     align-items: center;
+
+    @media(max-width: 769px) {
+      justify-content: center;
+    }
 
     @media(max-width: 376px) {
         padding-left: 5px;

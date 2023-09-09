@@ -1,0 +1,240 @@
+.tree {
+    margin-bottom: 199px;
+
+    @media(max-width: 376px) {
+        margin-bottom: 85px;
+    }
+    
+  // .tree__container
+
+  &__container {
+    position: relative;
+  }
+
+  // .tree__img
+
+  &__img {
+    position: absolute;
+    top: 278px;
+    left: 86px;
+  }
+
+  // .tree__card1
+
+  // .tree__card-title
+
+  &__card-title {
+    h6 {
+      font-family: ChakraPetch;
+      font-size: 33px;
+      font-style: normal;
+      font-weight: 700;
+    }
+  }
+
+  &__card-titleBlack {
+    h6 {
+      color: #0d0d0d;
+    }
+  }
+
+  // .tree__card-text
+
+  &__card-text {
+    max-width: 225px;
+    p {
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+  }
+
+  &__card5-text {
+    max-width: 225px;
+    p {
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: 0.36px;
+    }
+  }
+
+  &__card-textBlack {
+    p {
+      color: #0d0d0d;
+    }
+  }
+
+  &__card1 {
+    position: relative;
+    top: 466px;
+    left: 39px;
+  }
+
+  &__card1-wrapper {
+    position: absolute;
+    top: 65px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  // .tree__card1-img
+
+  &__card1-img {
+  }
+
+  &__card2 {
+    position: relative;
+    top: 82px;
+    left: 384px;
+  }
+
+  &__card2-wrapper {
+    position: absolute;
+    top: 34px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+  }
+
+  &__card3 {
+    position: relative;
+    top: 32px;
+    left: 857px;
+  }
+
+  &__card3-wrapper {
+    position: absolute;
+    top: 54px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  &__card4 {
+    position: relative;
+    top: -569px;
+    left: 1200px;
+  }
+
+  &__card4-wrapper {
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+  }
+
+  &__card5 {
+    position: relative;
+    top: -259px;
+    left: 1200px;
+  }
+
+  &__card5-wrapper {
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+  }
+
+  &__card-desktop {
+    height: 840px;
+    @media (max-width: 1500px) {
+      display: none;
+    }
+  }
+
+  &__card-mobile {
+    display: none;
+    @media(max-width: 1500px) {
+        display: block;
+    }
+  }
+
+  &__mobile-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 62px;
+
+    @media(max-width: 376px) {
+        justify-content: center;
+        row-gap: 39px;
+    }
+  }
+
+  &__mobile-title {
+    padding-bottom: 27px;
+    h6 {
+      font-family: ChakraPetch;
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+  }
+
+  &__mobile-text {
+    max-width: 245px;
+    p {
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+  }
+
+  &__mobile-card {
+    border-radius: 20px;
+    border: 3px solid var(--accent-4, #b2ff0f);
+    background: var(--main-black, #0d0d0d);
+    max-width: 245px;
+    height: 144px;
+    padding: 19px 0px 0 18px;
+    position: relative;
+
+    svg {
+      position: absolute;
+      bottom: -34px;
+      left: 50%;
+      transform: translate(-50%);
+    }
+  }
+}
+
+.mobile {
+  &__card-green {
+    border: 3px solid var(--accent-4, #b2ff0f);
+    background: var(
+      --accent-4,
+      linear-gradient(149deg, #b2ff0f 10.47%, #76ffef 88.29%)
+    );
+  }
+
+  &__green-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  &__title-black {
+    h6 {
+      color: #0d0d0d;
+    }
+  }
+  &__text-black {
+    p {
+      color: #0d0d0d;
+    }
+  }
+}

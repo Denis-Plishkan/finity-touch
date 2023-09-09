@@ -24,7 +24,7 @@ function thesisSwiper() {
       768: {
         slidesPerView: 2,
         centeredSlides: true,
-        spaceBetween: 20,
+        spaceBetween: -80,
       },
       991: {
         slidesPerView: 2,
@@ -71,7 +71,7 @@ function teamSwiper() {
       768: {
         slidesPerView: 2,
         centeredSlides: true,
-        spaceBetween: 20,
+        spaceBetween: -140,
       },
       991: {
         slidesPerView: 2,
@@ -131,4 +131,46 @@ function cardsSwiper() {
 }
 
 cardsSwiper();
+
+
+function thesSwiper() {
+  let swiper = new Swiper(".thes__swiper", {
+    spaceBetween: 24,
+    slidesPerview: 'auto',
+    loop: true,
+    // autoplay: {
+    //   delay: 1000,
+    // },
+
+    breakpoints: {
+      320: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      375: {
+        slidesPerView: 2,
+        spaceBetween: 320,
+      },
+      768: {
+        slidesPerView: 2,
+        centeredSlides: true,
+        spaceBetween: 20,
+      },
+      991: {
+        slidesPerView: 2,
+        spaceBetween: 30,
+      },
+      1440: {
+        slidesPerView: 3,
+        spaceBetween: 30,
+      },
+      1920: {
+        slidesPerView: 3,
+        spaceBetween: 40,
+      },
+    },
+  });
+}
+
+thesSwiper();
 

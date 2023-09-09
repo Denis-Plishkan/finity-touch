@@ -1,14 +1,17 @@
 .contacts {
   margin-top: 143px;
+  padding-bottom: 110px;
 
   @media (max-width: 768px) {
     margin-top: 100px;
     margin-bottom: 77px;
+    padding-bottom: 0;
   }
   // .contacts__container
 
   &__container {
     max-width: 1840px;
+    position: relative;
   }
 
   // .contacts__wrapper
@@ -110,7 +113,7 @@
 
   &__coin-right {
     position: absolute;
-    right: 98px;
+    right: 113px;
     bottom: 38px;
 
     @media (max-width: 1530px) {
@@ -143,3 +146,5 @@
     }
   }
 }
+
+

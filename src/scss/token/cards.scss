@@ -2,7 +2,7 @@
     margin-bottom: 193px;
 
     @media(max-width: 768px) {
-        margin-bottom: 70px;
+        margin-bottom: 80px;
       }
   // .cards__container
 
@@ -33,7 +33,7 @@
     @media (max-width: 998px) {
       width: 305px;
       min-height: 218px;
-      padding: 0 18px 17px 18px;
+      padding: 0 18px 14px 18px;
       border-radius: 40px;
     }
   }
@@ -44,7 +44,9 @@
     text-align: center;
     padding-top: 28px;
     padding-bottom: 16px;
-
+    @media (max-width: 998px) {
+      padding-bottom: 0;
+    }
 
     svg {
       @media (max-width: 998px) {
