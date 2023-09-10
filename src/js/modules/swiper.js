@@ -54,8 +54,8 @@ function teamSwiper() {
     //   delay: 1000,
     // },
     navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+      nextEl: '.team__swiper-next',
+      prevEl: '.team__swiper-prev',
     },
 
     breakpoints: {
@@ -66,7 +66,7 @@ function teamSwiper() {
       },
       375: {
         slidesPerView: 2,
-        spaceBetween: 10,
+        spaceBetween: 5,
       },
       768: {
         slidesPerView: 2,
