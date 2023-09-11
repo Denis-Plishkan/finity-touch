@@ -9,9 +9,21 @@
   &__container {
     max-width: 1682px;
     padding: 0 80px 0 15px;
+    position: relative;
 
     @media (max-width: 768px) {
       padding: 0;
+    }
+  }
+
+  &__bluer {
+    position: absolute;
+    right: -30%;
+    top: 9%;
+    pointer-events: none;
+
+    @media(max-width: 1250px) {
+      display: none;
     }
   }
 

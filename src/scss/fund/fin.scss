@@ -9,6 +9,28 @@
   // .token__container
 
   &__container {
+    position: relative;
+  }
+
+  &__bluer-desktop {
+    position: absolute;
+    left: 45%;
+    top: -105%;
+    pointer-events: none;
+
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  &__bluer-mobile {
+    display: none;
+    @media (max-width: 768px) {
+      display: block;
+      position: absolute;
+      left: 66%;
+      top: -26%;
+    }
   }
 
   // .token__title

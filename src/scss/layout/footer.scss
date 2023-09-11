@@ -15,6 +15,12 @@
     }
   }
 
+  &__bluer {
+    position: absolute;
+    right: -304px;
+    top: -168px;
+  }
+
   &__top {
     display: flex;
     justify-content: space-between;
@@ -60,18 +66,17 @@
 }
 
 .mobile {
-
   &__footer {
     position: relative;
     display: none;
 
-    @media(max-width: 1500px) {
+    @media (max-width: 1500px) {
       display: block;
     }
 
     &::after {
       position: absolute;
-      content: '';
+      content: "";
       width: 100%;
       top: -16px;
       border: 1px solid white;
@@ -79,7 +84,7 @@
 
     &::before {
       position: absolute;
-      content: '';
+      content: "";
       width: 100%;
       bottom: 0;
       border: 1px solid white;
@@ -129,7 +134,7 @@
     margin: 0 auto;
     max-width: 287px;
     padding-bottom: 10px;
-    
+
     p {
       color: var(--main-text-2, #959595);
       font-size: 9px;

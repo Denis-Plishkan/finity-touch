@@ -1,7 +1,7 @@
 .found {
   margin-top: 222px;
 
-  @media(max-width: 768px) {
+  @media (max-width: 768px) {
     margin-bottom: 71px;
   }
 
@@ -54,7 +54,25 @@
   // .found__content-right
 
   &__content-right {
-    
+    position: relative;
+  }
+
+  &__content-blur {
+    position: absolute;
+    right: -400px;
+    top: -17%;
+    z-index: -1;
+
+    @media (max-width: 768px) {
+      right: -74px;
+      top: -314px;
+    }
+
+    svg {
+      @media (max-width: 768px) {
+        width: 186px;
+      }
+    }
   }
 
   // .found__content-title
@@ -231,15 +249,15 @@
     }
 
     a {
-        border: 3px solid var(--accent-4, #b2ff0f);
-        font-size: 27px;
-  
-        @media (max-width: 768px) {
-          font-size: 15px;
-          padding: 8px 0px;
-          width: 180px;
-        }
+      border: 3px solid var(--accent-4, #b2ff0f);
+      font-size: 27px;
+
+      @media (max-width: 768px) {
+        font-size: 15px;
+        padding: 8px 0px;
+        width: 180px;
       }
+    }
 
     svg {
       @media (max-width: 768px) {
@@ -247,6 +265,4 @@
       }
     }
   }
-
-  
 }

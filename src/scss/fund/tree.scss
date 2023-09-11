@@ -11,6 +11,24 @@
     position: relative;
   }
 
+  &__bluer-desktop {
+    position: absolute;
+    top: -43%;
+    left: -36%;
+  }
+
+  &__mobile-bluerTop {
+    position: absolute;
+    top: -12%;
+    left: -41%;
+  }
+
+  &__mobile-bluerBottom {
+    position: absolute;
+    top: 35%;
+    right: -61%;
+  }
+
   // .tree__img
 
   &__img {

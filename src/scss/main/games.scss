@@ -5,7 +5,7 @@
     margin-top: 71px;
   }
 
-  @media(max-width: 376px) {
+  @media (max-width: 376px) {
     margin-bottom: 77px;
   }
 
@@ -77,6 +77,7 @@
 
   &__content-left {
     max-width: 820px;
+    position: relative;
 
     @media (max-width: 768px) {
       max-width: 370px;
@@ -86,6 +87,24 @@
       @media (max-width: 768px) {
         width: 100%;
         height: 364px;
+      }
+    }
+  }
+
+  &__bluer {
+    position: absolute;
+    left: -1187px;
+    top: -181px;
+    z-index: -1;
+
+    @media (max-width: 768px) {
+      left: 273px;
+      top: 10px;
+    }
+
+    svg {
+      @media (max-width: 768px) {
+        width: 180px;
       }
     }
   }
@@ -205,15 +224,15 @@
     }
 
     a {
-        border: 3px solid var(--accent-5,  #7673FF );
-        font-size: 27px;
-  
-        @media (max-width: 768px) {
-          font-size: 15px;
-          padding: 8px 0px;
-          width: 180px;
-        }
+      border: 3px solid var(--accent-5, #7673ff);
+      font-size: 27px;
+
+      @media (max-width: 768px) {
+        font-size: 15px;
+        padding: 8px 0px;
+        width: 180px;
       }
+    }
 
     svg {
       @media (max-width: 768px) {

@@ -11,6 +11,26 @@
     position: relative;
   }
 
+  &__bluer-left {
+    position: absolute;
+    top: -52%;
+    right: 67%;
+
+    @media (max-width: 1800px) {
+      display: none;
+    }
+  }
+
+  &__bluer-right {
+    position: absolute;
+    right: -23%;
+    top: -85%;
+
+    @media (max-width: 1800px) {
+      display: none;
+    }
+  }
+
   // .submit__right-svg
 
   &__right-svg {

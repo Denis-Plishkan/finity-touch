@@ -1,7 +1,7 @@
 .market {
   margin-top: 138px;
 
-  @media(max-width: 376px) {
+  @media (max-width: 376px) {
     margin-top: 77px;
   }
 
@@ -90,10 +90,27 @@
 
   &__content-right {
     max-width: 770px;
+    position: relative;
 
     @media (max-width: 768px) {
       display: flex;
       flex-direction: column;
+    }
+  }
+
+  &__bluer {
+    position: absolute;
+    right: -490px;
+    top: -190px;
+    z-index: -1;
+    @media (max-width: 768px) {
+      right: -103px;
+      top: -368px;
+    }
+    svg {
+      @media (max-width: 768px) {
+        width: 220px;
+      }
     }
   }
 
@@ -195,8 +212,8 @@
     bottom: -165px;
 
     @media (max-width: 768px) {
-        bottom: -77px;
-        right: 20px;
+      bottom: -77px;
+      right: 20px;
     }
 
     svg {
@@ -212,8 +229,8 @@
     bottom: -188px;
 
     @media (max-width: 768px) {
-        bottom: -87px;
-        right: 20px;
+      bottom: -87px;
+      right: 20px;
     }
 
     svg {
@@ -229,8 +246,8 @@
     bottom: -185px;
 
     @media (max-width: 768px) {
-        right: -2px;
-        bottom: -89px;
+      right: -2px;
+      bottom: -89px;
     }
 
     img {

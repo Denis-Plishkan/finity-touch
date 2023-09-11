@@ -8,6 +8,29 @@
   // .token__container
 
   &__container {
+    position: relative;
+  }
+
+  &__bluer-desktop {
+    position: absolute;
+    right: -816px;
+    top: -568px;
+    pointer-events: none;
+
+    @media (max-width: 769px) {
+      display: none;
+    }
+  }
+
+  &__bluer-mobile {
+    display: none;
+
+    @media (max-width: 769px) {
+      display: block;
+      position: absolute;
+      right: -132px;
+      top: -148px;
+    }
   }
 
   // .token__title

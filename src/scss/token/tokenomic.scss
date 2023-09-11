@@ -1,12 +1,30 @@
 .tokenomic {
-    margin-bottom: 200px;
+  margin-bottom: 200px;
 
-    @media (max-width: 520px) {
-      margin-bottom: 103px;
-    }
+  @media (max-width: 520px) {
+    margin-bottom: 103px;
+  }
   // .tokenomic__container
 
   &__container {
+    position: relative;
+  }
+
+  &__bluer {
+    position: absolute;
+    left: -895px;
+    top: -600px;
+
+    @media (max-width: 768px) {
+      left: -209px;
+      top: -736px;
+    }
+
+    svg {
+      @media (max-width: 768px) {
+        width: 400px;
+      }
+    }
   }
 
   // .tokenomic__title
@@ -14,15 +32,15 @@
   &__title {
     text-align: center;
     padding-bottom: 26px;
-    @media(max-width: 520px) {
-        padding-bottom: 14px;
-      }
+    @media (max-width: 520px) {
+      padding-bottom: 14px;
+    }
     h2 {
       font-size: 69px;
       font-style: normal;
       font-weight: 600;
 
-      @media(max-width: 520px) {
+      @media (max-width: 520px) {
         font-size: 30px;
       }
 
@@ -46,10 +64,10 @@
     margin: 0 auto;
     padding-bottom: 66px;
 
-    @media(max-width: 520px) {
-        max-width: 299px;
-        padding-bottom: 39px;
-      }
+    @media (max-width: 520px) {
+      max-width: 299px;
+      padding-bottom: 39px;
+    }
 
     p {
       font-size: 25px;
@@ -57,7 +75,7 @@
       font-weight: 500;
       line-height: 38.75px;
 
-      @media(max-width: 520px) {
+      @media (max-width: 520px) {
         font-size: 12px;
         line-height: 18.6px;
       }
@@ -70,12 +88,12 @@
     text-align: center;
 
     img {
-        @media(max-width: 1200px) {
-            width: 100%;
-        }
-        @media(max-width: 520px) {
-            max-width: 302px;
-        }
+      @media (max-width: 1200px) {
+        width: 100%;
+      }
+      @media (max-width: 520px) {
+        max-width: 302px;
+      }
     }
   }
 }

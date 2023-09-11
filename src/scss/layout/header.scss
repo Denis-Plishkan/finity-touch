@@ -21,7 +21,7 @@
       flex-direction: column;
     }
 
-    @media (max-width: 767px) {
+    @media (max-width: 769px) {
       flex-direction: unset;
     }
     @media (max-width: 520px) {
@@ -61,7 +61,7 @@
   }
 
   &__option {
-    @media(max-width: 768px) {
+    @media(max-width: 769px) {
       font-size: 15px;
     }
     
@@ -100,7 +100,7 @@
     flex-direction: column;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: 769px) {
     opacity: 0;
     position: fixed;
     top: -100%;
@@ -140,7 +140,7 @@
       }
     }
 
-    @media (max-width: 767px) {
+    @media (max-width: 769px) {
       flex-direction: column;
       align-items: center;
       margin-top: 100px;
@@ -170,7 +170,7 @@
 
 .icon-menu {
   display: none;
-  @include media(767) {
+  @include media(769) {
     display: block;
     position: relative;
     width: rem(30);

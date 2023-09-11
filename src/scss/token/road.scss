@@ -1,8 +1,8 @@
 .road {
   margin-bottom: 0;
 
-  @media(max-width: 1530px) {
-    margin-bottom: 172px;
+  @media (max-width: 1530px) {
+    margin-bottom: 191px;
   }
   // .road__container
 
@@ -54,10 +54,9 @@
   // .road__step
 
   &__step {
-    // text-align: center;
     padding-top: 59px;
     position: absolute;
-    right: 45%;
+    right: 43%;
   }
 
   &__step-title {
@@ -95,6 +94,7 @@
   // .road__step1
 
   &__step-desktop {
+    position: relative;
     @media (max-width: 1584px) {
       display: none;
     }
@@ -253,6 +253,7 @@
   &__step-mobile {
     display: none;
     @media (max-width: 1584px) {
+      position: relative;
       display: block;
     }
   }
@@ -300,6 +301,10 @@
     position: relative;
     left: 64px;
     bottom: 19px;
+    width: 277px;
+    height: 161px;
+    background: #0d0d0d;
+    border-radius: 10px;
   }
 
   &__mobile-wrapper {
@@ -324,7 +329,11 @@
   &__mobile2 {
     position: relative;
     left: 64px;
-    top: 12px;
+    top: 17px;
+    width: 277px;
+    height: 161px;
+    background: #0d0d0d;
+    border-radius: 10px;
   }
 
   &__mobile2-text {
@@ -349,7 +358,11 @@
   &__mobile3 {
     position: relative;
     left: 64px;
-    top: 43px;
+    top: 51px;
+    width: 277px;
+    height: 161px;
+    background: #0d0d0d;
+    border-radius: 10px;
   }
 
   &__mobile3-wrapper {
@@ -368,7 +381,11 @@
   &__mobile4 {
     position: relative;
     left: 64px;
-    top: 74px;
+    top: 84px;
+    width: 277px;
+    height: 161px;
+    background: #0d0d0d;
+    border-radius: 10px;
   }
 
   &__mobile4-wrapper {
@@ -387,13 +404,18 @@
   &__mobile5 {
     position: relative;
     left: 64px;
-    top: 103px;
+    top: 119px;
+    width: 276px;
+    height: 205px;
+    background: #0d0d0d;
+    border-radius: 10px;
   }
 
   &__mobile5-wrapper {
     position: absolute;
     top: 16px;
     left: 25px;
+    gap: 15px;
   }
 
   &__mobile5-step {
@@ -406,7 +428,11 @@
   &__mobile6 {
     position: relative;
     left: 64px;
-    top: 136px;
+    top: 154px;
+    width: 277px;
+    height: 161px;
+    background: #0d0d0d;
+    border-radius: 10px;
   }
 
   &__mobile6-wrapper {
@@ -419,5 +445,45 @@
     position: absolute;
     left: -85px;
     top: 53px;
+  }
+}
+
+.road-desktop {
+  &__bluer-top {
+    position: absolute;
+    right: -48%;
+    top: -40%;
+  }
+
+  &__bluer-center {
+    position: absolute;
+    top: -6%;
+    left: -62%;
+  }
+
+  &__bluer-bottom {
+    position: absolute;
+    top: 44%;
+    left: 50%;
+  }
+}
+
+.road-mobile {
+  &__bluer-top {
+    position: absolute;
+    top: 0%;
+    left: 53%;
+  }
+
+  &__bluer-center {
+    position: absolute;
+    top: 44%;
+    left: 23%;
+  }
+
+  &__bluer-bottom {
+    position: absolute;
+    top: 75%;
+    left: 31%;
   }
 }
