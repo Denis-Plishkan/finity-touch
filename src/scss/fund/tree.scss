@@ -185,7 +185,7 @@
     flex-wrap: wrap;
     row-gap: 62px;
 
-    @media(max-width: 376px) {
+    @media(max-width: 519px) {
         justify-content: center;
         row-gap: 39px;
     }

@@ -13,6 +13,10 @@
     @media (max-width: 520px) {
       padding: 0 33px 0 0;
     }
+
+    @media(max-width: 370px) {
+      padding: 0;
+    }
   }
 
   &__bluer-left {

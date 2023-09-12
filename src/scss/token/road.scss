@@ -4,6 +4,14 @@
   @media (max-width: 1530px) {
     margin-bottom: 191px;
   }
+
+  @media (max-width: 1584px) {
+    margin-bottom: 393px;
+  }
+
+  @media (max-width: 473px) {
+    margin-bottom: 192px;
+  }
   // .road__container
 
   &__container {
@@ -254,7 +262,9 @@
     display: none;
     @media (max-width: 1584px) {
       position: relative;
-      display: block;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
   }
 
@@ -294,6 +304,14 @@
     }
     img {
       position: absolute;
+
+      @media (max-width: 1584px) {
+        right: 105px;
+      }
+
+      @media (max-width: 473px) {
+        right: 130px;
+      }
     }
   }
 
@@ -305,6 +323,14 @@
     height: 161px;
     background: #0d0d0d;
     border-radius: 10px;
+
+    @media (max-width: 473px) {
+      left: 30px;
+    }
+
+    @media (max-width: 370px) {
+      left: 13px;
+    }
   }
 
   &__mobile-wrapper {
@@ -334,6 +360,13 @@
     height: 161px;
     background: #0d0d0d;
     border-radius: 10px;
+
+    @media (max-width: 473px) {
+      left: 30px;
+    }
+    @media (max-width: 370px) {
+      left: 13px;
+    }
   }
 
   &__mobile2-text {
@@ -363,6 +396,13 @@
     height: 161px;
     background: #0d0d0d;
     border-radius: 10px;
+
+    @media (max-width: 473px) {
+      left: 30px;
+    }
+    @media (max-width: 370px) {
+      left: 13px;
+    }
   }
 
   &__mobile3-wrapper {
@@ -386,6 +426,13 @@
     height: 161px;
     background: #0d0d0d;
     border-radius: 10px;
+
+    @media (max-width: 473px) {
+      left: 30px;
+    }
+    @media (max-width: 370px) {
+      left: 13px;
+    }
   }
 
   &__mobile4-wrapper {
@@ -409,6 +456,13 @@
     height: 205px;
     background: #0d0d0d;
     border-radius: 10px;
+
+    @media (max-width: 473px) {
+      left: 30px;
+    }
+    @media (max-width: 370px) {
+      left: 13px;
+    }
   }
 
   &__mobile5-wrapper {
@@ -433,6 +487,13 @@
     height: 161px;
     background: #0d0d0d;
     border-radius: 10px;
+
+    @media (max-width: 473px) {
+      left: 30px;
+    }
+    @media (max-width: 370px) {
+      left: 13px;
+    }
   }
 
   &__mobile6-wrapper {
@@ -445,6 +506,12 @@
     position: absolute;
     left: -85px;
     top: 53px;
+
+    @media (max-width: 374px) {
+      transform: rotate(-90deg);
+      left: -72px;
+      top: 65px;
+    }
   }
 }
 

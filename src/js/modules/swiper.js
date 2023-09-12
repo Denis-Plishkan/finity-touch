@@ -15,7 +15,7 @@ function thesisSwiper() {
     breakpoints: {
       320: {
         slidesPerView: 2,
-        spaceBetween: 20,
+        spaceBetween: 240,
       },
       375: {
         slidesPerView: 2,
@@ -102,8 +102,9 @@ function cardsSwiper() {
 
     breakpoints: {
       320: {
-        slidesPerView: 2,
-        spaceBetween: 20,
+        slidesPerView: 1,
+        centeredSlides: true,
+        spaceBetween: 5,
       },
       375: {
         slidesPerView: 2,
@@ -144,8 +145,9 @@ function thesSwiper() {
 
     breakpoints: {
       320: {
-        slidesPerView: 2,
-        spaceBetween: 20,
+        slidesPerView: 1,
+        centeredSlides: true,
+        spaceBetween: 5,
       },
       375: {
         slidesPerView: 2,

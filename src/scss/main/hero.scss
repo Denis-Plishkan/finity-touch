@@ -26,6 +26,9 @@
   // .hero__content-left
 
   &__content-left {
+    @media(max-width: 1520px) {
+      text-align: center;
+    }
     @media(max-width: 768px) {
       text-align: center;
     }
@@ -108,6 +111,10 @@
     gap: 21px;
     align-items: center;
 
+    @media(max-width: 1520px) {
+      justify-content: center;
+    }
+
     @media(max-width: 769px) {
       justify-content: center;
     }
@@ -130,6 +137,10 @@
       @media (max-width: 376px) {
         font-size: 19.761px;
       }
+
+      @media(max-width: 370px) {
+        padding: 16px 4.526px;
+      }
     }
   }
 
@@ -146,12 +157,19 @@
       @media (max-width: 376px) {
         font-size: 19.761px;
       }
+
+      @media(max-width: 370px) {
+        padding: 16px 5px;
+      }
     }
   }
 
   // .hero__content-right
 
   &__content-right {
+    @media(max-width: 1520px) {
+      margin: 0 auto;
+    }
     @media (max-width: 376px) {
       text-align: center;
       padding-bottom: 18px;

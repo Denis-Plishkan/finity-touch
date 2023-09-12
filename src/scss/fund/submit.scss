@@ -156,7 +156,8 @@
   &__img-left {
     position: absolute;
     top: 25px;
-    left: -188px;
+    left: -182px;
+    z-index: 10;
 
     @media (max-width: 1800px) {
       display: none;
@@ -166,6 +167,7 @@
     position: absolute;
     right: -183px;
     top: -120px;
+    z-index: 10;
 
     @media (max-width: 1800px) {
       display: none;

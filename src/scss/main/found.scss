@@ -39,6 +39,10 @@
   &__content-left {
     max-width: 820px;
 
+    @media(max-width: 1580px) {
+      margin: 0 auto;
+    }
+
     @media (max-width: 768px) {
       max-width: 370px;
     }
@@ -55,6 +59,10 @@
 
   &__content-right {
     position: relative;
+
+    @media(max-width: 1580px) {
+      margin: 0 auto;
+    }
   }
 
   &__content-blur {
@@ -82,7 +90,7 @@
     padding-left: 49px;
     padding-bottom: 25px;
     padding-top: 55px;
-    position: relative;
+    position: relative;    
     @media (max-width: 768px) {
       max-width: 292px;
       padding-top: 0;
