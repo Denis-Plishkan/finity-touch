@@ -1,11 +1,12 @@
 .part {
   @media (max-width: 376px) {
-    margin-bottom: 85px;
+    margin-bottom: 0;
   }
 
   // .part__container
 
   &__container {
+    max-width: 1920px;
   }
 
   &__wrapper {

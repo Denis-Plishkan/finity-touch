@@ -2,7 +2,7 @@
   margin-bottom: 98px;
   margin-top: 93px;
 
-  @media(max-width: 376px) {
+  @media (max-width: 768px) {
     margin-bottom: 47px;
     margin-top: 22px;
   }
@@ -26,10 +26,10 @@
   // .hero__content-left
 
   &__content-left {
-    @media(max-width: 1520px) {
+    @media (max-width: 1520px) {
       text-align: center;
     }
-    @media(max-width: 768px) {
+    @media (max-width: 768px) {
       text-align: center;
     }
   }
@@ -111,16 +111,20 @@
     gap: 21px;
     align-items: center;
 
-    @media(max-width: 1520px) {
+    @media (max-width: 1520px) {
       justify-content: center;
     }
 
-    @media(max-width: 769px) {
+    @media (max-width: 769px) {
       justify-content: center;
     }
 
-    @media(max-width: 376px) {
-        padding-left: 5px;
+    @media (max-width: 376px) {
+      padding-left: 5px;
+    }
+
+    @media(max-width: 350px) {
+      gap: 10px;
     }
   }
 
@@ -138,7 +142,7 @@
         font-size: 19.761px;
       }
 
-      @media(max-width: 370px) {
+      @media (max-width: 370px) {
         padding: 16px 4.526px;
       }
     }
@@ -158,7 +162,7 @@
         font-size: 19.761px;
       }
 
-      @media(max-width: 370px) {
+      @media (max-width: 370px) {
         padding: 16px 5px;
       }
     }
@@ -167,7 +171,7 @@
   // .hero__content-right
 
   &__content-right {
-    @media(max-width: 1520px) {
+    @media (max-width: 1520px) {
       margin: 0 auto;
     }
     @media (max-width: 376px) {
@@ -175,11 +179,12 @@
       padding-bottom: 18px;
     }
     img {
+      width: 645px;
+      height: 645px;
+
       @media (max-width: 768px) {
-        width: 100%;
-      }
-      @media (max-width: 376px) {
         width: 256px;
+        height: 256px;
       }
     }
   }

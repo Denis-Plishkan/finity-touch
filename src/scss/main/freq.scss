@@ -1,13 +1,12 @@
 .freq {
-  margin-top: 152px;
+  margin-top: 142px;
 
   @media (max-width: 376px) {
-    margin-top: 85px;
+    margin-top: 74px;
   }
   // .freq__container
 
   &__container {
-    
   }
 
   // .freq__wrapper
@@ -30,6 +29,11 @@
 
   &__left-title {
     text-align: center;
+    height: 144px;
+    @media(max-width: 768px) {
+      height: 75px;
+    }
+  
     h4 {
       font-family: ChakraPetch;
       font-size: 60px;
@@ -59,11 +63,13 @@
       text-align: center;
     }
     img {
+      width: 732px;
+      height: 468px;
       @media (max-width: 768px) {
         width: 100%;
       }
       @media (max-width: 376px) {
-        height: 230px;
+        height: 234px;
       }
     }
   }
@@ -77,9 +83,9 @@
     gap: 28px;
 
     @media (max-width: 376px) {
-        padding: 0 22px;
-        gap: 8px;
-      }
+      padding: 0 22px;
+      gap: 8px;
+    }
   }
 
   // .freq__inner-ul
@@ -92,8 +98,18 @@
     background: var(--main-black, #0d0d0d);
     box-shadow: 2px 2px 20px 0px rgba(239, 57, 255, 0.3);
 
+    @media (min-width: 998px) {
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
     @media (max-width: 376px) {
-        padding: 15px 15px 6px 13px;
+      padding: 15px 15px 6px 13px;
+    }
+
+    h5 {
+      gap: 10px;
     }
   }
 }
@@ -110,6 +126,7 @@
   transition: all 0.4s;
   &.active {
     opacity: 1;
+    padding-top: 23px;
     overflow: visible;
     max-height: 500px;
     visibility: visible;
@@ -134,6 +151,11 @@
       @media (max-width: 376px) {
         width: 18px;
       }
+
+      &.active {
+        transform: rotate(45deg);
+        transition: all 0.2s ease;
+      }
     }
   }
 
@@ -146,6 +168,9 @@
       line-height: 34.2px;
       @media (max-width: 768px) {
         font-size: 12px;
+      }
+      @media (max-width: 450px) {
+        line-height: 15px;
       }
     }
   }

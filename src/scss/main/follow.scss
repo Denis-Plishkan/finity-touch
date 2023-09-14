@@ -1,8 +1,16 @@
 .follow {
-  margin-top: 176px;
+  margin-top: 187px;
+  height: 962px;
 
   @media (max-width: 768px) {
     margin-top: 120px;
+    height: 450px;
+  }
+  @media (max-width: 550px) {
+    height: 400px;
+  }
+  @media (max-width: 500px) {
+    height: 263px;
   }
   // .follow__container
 
@@ -45,25 +53,107 @@
     }
 
     img {
-      @media (max-width: 1200px) {
+      @media (max-width: 1270px) {
         width: 100%;
       }
+    }
+  }
+
+  &__img-top {
+    position: relative;
+    width: 559px;
+    display: flex;
+    justify-content: space-between;
+    bottom: 812px;
+    left: 480px;
+    @media (max-width: 1268px) {
+      left: 256px;
+    }
+    @media (max-width: 1100px) {
+      bottom: 512px;
+      width: 458px;
+    }
+    @media (max-width: 812px) {
+      left: 72px;
+    }
+    @media (max-width: 768px) {
+      left: 167px;
+      bottom: 321px;
+      width: 200px;
+    }
+    @media (max-width: 520px) {
+      left: 86px;
+      bottom: 269px;
+      width: 124px;
+    }
+  }
+
+  &__img-center {
+    position: relative;
+    display: flex;
+    bottom: 749px;
+    width: 800px;
+    justify-content: space-between;
+    left: 387px;
+    @media (max-width: 1268px) {
+      left: 150px;
+    }
+    @media (max-width: 1100px) {
+      bottom: 485px;
+      width: 660px;
+    }
+    @media (max-width: 812px) {
+      left: -10px;
+    }
+    @media (max-width: 768px) {
+      bottom: 188px;
+      width: 410px;
+    }
+    @media (max-width: 520px) {
+      bottom: 118px;
+      width: 195px;
+      left: 61px;
+    }
+  }
+
+  &__img-bottom {
+    position: relative;
+    bottom: 772px;
+    left: 461px;
+    @media (max-width: 1268px) {
+      left: 325px;
+    }
+    @media (max-width: 1100px) {
+      bottom: 550px;
+    }
+    @media (max-width: 812px) {
+      left: 140px;
+    }
+    @media (max-width: 768px) {
+      bottom: 229px;
+    }
+    @media (max-width: 520px) {
+      left: 80px;
+      bottom: 118px;
     }
   }
 
   // .follow__img-linkedin
 
   &__img-linkedin {
-    position: absolute;
-    top: -290px;
-    left: 52%;
-
     @media (max-width: 768px) {
-      top: -67px;
+      position: absolute;
+      right: -8px;
+      bottom: -130px;
     }
-
     img {
+      @media (max-width: 1756px) {
+        width: 180px;
+      }
       @media (max-width: 768px) {
+        width: 120px;
+      }
+      @media (max-width: 520px) {
         width: 58px;
       }
     }
@@ -73,16 +163,15 @@
 
   &__img-diskord {
     position: absolute;
-    top: -190px;
-    left: 488px;
-
-    @media (max-width: 768px) {
-      top: -44px;
-      left: 83px;
-    }
-
+    top: 97px;
     img {
+      @media (max-width: 1756px) {
+        width: 180px;
+      }
       @media (max-width: 768px) {
+        width: 120px;
+      }
+      @media (max-width: 520px) {
         width: 58px;
       }
     }
@@ -91,17 +180,14 @@
   // .follow__img-telegram
 
   &__img-telegram {
-    position: absolute;
-    top: 22px;
-    left: 382px;
-
-    @media (max-width: 768px) {
-      top: 8px;
-      left: 62px;
-    }
-
     img {
+      @media (max-width: 1756px) {
+        width: 180px;
+      }
       @media (max-width: 768px) {
+        width: 120px;
+      }
+      @media (max-width: 520px) {
         width: 58px;
       }
     }
@@ -111,16 +197,21 @@
 
   &__img-reddit {
     position: absolute;
-    right: 38%;
-    top: -14px;
-
+    left: 296px;
+    top: -41px;
     @media (max-width: 768px) {
-      right: 36%;
-      top: 0px;
+      left: 73px;
+      top: -9px;
     }
 
     img {
+      @media (max-width: 1756px) {
+        width: 180px;
+      }
       @media (max-width: 768px) {
+        width: 120px;
+      }
+      @media (max-width: 520px) {
         width: 58px;
       }
     }
@@ -130,16 +221,20 @@
 
   &__img-twitter {
     position: absolute;
-    right: 337px;
-    top: 53px;
-
+    right: 0px;
+    top: 23px;
     @media (max-width: 768px) {
-      right: 48px;
-      top: 11px;
+      right: 3px;
+      top: 6px;
     }
-
     img {
+      @media (max-width: 1756px) {
+        width: 180px;
+      }
       @media (max-width: 768px) {
+        width: 120px;
+      }
+      @media (max-width: 520px) {
         width: 58px;
       }
     }
@@ -148,17 +243,14 @@
   // .follow__img-instagram
 
   &__img-instagram {
-    position: absolute;
-    bottom: 18px;
-    left: 463px;
-
-    @media (max-width: 768px) {
-      bottom: 7px;
-      left: 80px;
-    }
-
     img {
+      @media (max-width: 1756px) {
+        width: 180px;
+      }
       @media (max-width: 768px) {
+        width: 120px;
+      }
+      @media (max-width: 520px) {
         width: 58px;
       }
     }

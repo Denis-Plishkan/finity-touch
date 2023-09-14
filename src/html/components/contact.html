@@ -1,19 +1,21 @@
 <div class="contacts__wrapper">
     <div class="contacts__form">
-        <form action="#">
-            <label for="name">Name</label>
-            <input type="text" name="name" required>
-            
-            <label for="email">Mail</label>
-            <input type="email" name="email" required>
-            
-            <label for="message">Your Message</label>
-            <textarea id="message" name="message" required></textarea>
-            
+        <form class="contacts__form-wrapper">
+            <div class="contacts__form-group">
+                <span>Name</span>
+                <input type="text" id="username" class="form-input" required>
+            </div>
+            <div class="contacts__form-group">
+                <span>Mail</span>
+                <input type="email" id="email" class="form-input" required>
+            </div>
+            <div class="contacts__form-group">
+                <span>Your message</span>
+                <input type="text" id="text" class="form-input" required>
+            </div>
             <div class="contacts__button-wrapper">
                 <button type="submit" class="button-third contacts__button">Send</button>
             </div>
-            
         </form>
     </div>
 </div>

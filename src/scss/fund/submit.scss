@@ -1,9 +1,10 @@
 .submit {
   margin-top: 319px;
+  margin-bottom: 81px;
 
   @media (max-width: 760px) {
-    margin-top: 131px;
-    margin-bottom: 45px;
+    margin-top: 127px;
+    margin-bottom: 43px;
   }
   // .submit__container
 
@@ -42,7 +43,7 @@
       right: 35px;
     }
     @media (max-width: 760px) {
-      right: 229px;
+      right: 156px;
     }
     @media (max-width: 650px) {
       right: 10px;
@@ -63,7 +64,7 @@
       left: -14px;
     }
     @media (max-width: 760px) {
-      left: 165px;
+      left: 155px;
       top: auto;
     }
     @media (max-width: 650px) {
@@ -116,7 +117,7 @@
     a {
       border: 2.253px solid var(--accent-1, #fc84ff);
       width: 221px;
-      padding: 20.281px 69.395px 18.591px 67.605px;
+      padding: 20.281px 62.395px 18.591px 67.605px;
       width: 328px;
       font-size: 33.051px;
       font-style: normal;
@@ -126,6 +127,10 @@
         font-size: 18px;
         padding: 12px 19px 11px 19px;
         width: 144px;
+      }
+
+      @media (max-width: 350px) {
+        font-size: 16px;
       }
     }
   }
@@ -138,9 +143,9 @@
     gap: 86px;
     flex-wrap: wrap;
 
-    @media(max-width: 760px) {
-        column-gap: 72px;
-        row-gap: 25px;
+    @media (max-width: 760px) {
+      column-gap: 72px;
+      row-gap: 25px;
     }
     a {
       &::before {
@@ -158,6 +163,8 @@
     top: 25px;
     left: -182px;
     z-index: 10;
+    width: 456px;
+    height: 356px;
 
     @media (max-width: 1800px) {
       display: none;
@@ -165,9 +172,11 @@
   }
   &__img-right {
     position: absolute;
-    right: -183px;
+    right: -109px;
     top: -120px;
     z-index: 10;
+    width: 456px;
+    height: 356px;
 
     @media (max-width: 1800px) {
       display: none;

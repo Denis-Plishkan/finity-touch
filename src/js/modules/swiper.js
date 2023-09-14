@@ -15,34 +15,75 @@ function thesisSwiper() {
     breakpoints: {
       320: {
         slidesPerView: 2,
-        spaceBetween: 240,
+        spaceBetween: 260,
       },
       375: {
         slidesPerView: 2,
-        spaceBetween: 260,
+        spaceBetween: 248,
       },
       768: {
         slidesPerView: 2,
         centeredSlides: true,
-        spaceBetween: -80,
+        spaceBetween: -20,
       },
       991: {
         slidesPerView: 2,
-        spaceBetween: 30,
+        spaceBetween: -200,
       },
       1440: {
         slidesPerView: 3,
-        spaceBetween: 30,
+        spaceBetween: -80,
       },
       1920: {
         slidesPerView: 4,
-        spaceBetween: 40,
+        spaceBetween: 20,
       },
     },
   });
 }
 
 thesisSwiper();
+
+function partnersSwiper() {
+  let swiper = new Swiper(".partners__swiper", {
+    spaceBetween: 24,
+    slidesPerview: 'auto',
+    loop: true,
+    // autoplay: {
+    //   delay: 1000,
+    // },
+
+    breakpoints: {
+      320: {
+        slidesPerView: 2,
+        spaceBetween: 10,
+      },
+      375: {
+        slidesPerView: 2,
+        spaceBetween: 10,
+      },
+      768: {
+        slidesPerView: 2,
+        centeredSlides: true,
+        spaceBetween: -30,
+      },
+      991: {
+        slidesPerView: 6,
+        spaceBetween: 5,
+      },
+      1440: {
+        slidesPerView: 6,
+        spaceBetween: 10,
+      },
+      1920: {
+        slidesPerView: 6,
+        spaceBetween: 80,
+      },
+    },
+  });
+}
+
+partnersSwiper();
 
 
 function teamSwiper() {
@@ -60,13 +101,12 @@ function teamSwiper() {
 
     breakpoints: {
       320: {
-        slidesPerView: 1,
-        centeredSlides: true,
-        spaceBetween: 5,
+        slidesPerView: 2,
+        spaceBetween: 0,
       },
       375: {
         slidesPerView: 2,
-        spaceBetween: 5,
+        spaceBetween: 0,
       },
       768: {
         slidesPerView: 2,
@@ -102,30 +142,29 @@ function cardsSwiper() {
 
     breakpoints: {
       320: {
-        slidesPerView: 1,
-        centeredSlides: true,
-        spaceBetween: 5,
+        slidesPerView: 2,
+        spaceBetween: 270,
       },
       375: {
         slidesPerView: 2,
-        spaceBetween: 320,
+        spaceBetween: 310,
       },
       768: {
         slidesPerView: 2,
         centeredSlides: true,
-        spaceBetween: 20,
+        spaceBetween: -120,
       },
       991: {
-        slidesPerView: 2,
-        spaceBetween: 30,
+        slidesPerView: 3,
+        spaceBetween: 0,
       },
       1440: {
         slidesPerView: 3,
-        spaceBetween: 30,
+        spaceBetween: 10,
       },
       1920: {
         slidesPerView: 3,
-        spaceBetween: 40,
+        spaceBetween: 15,
       },
     },
   });
@@ -145,30 +184,29 @@ function thesSwiper() {
 
     breakpoints: {
       320: {
-        slidesPerView: 1,
-        centeredSlides: true,
-        spaceBetween: 5,
+        slidesPerView: 2,
+        spaceBetween: 275,
       },
       375: {
         slidesPerView: 2,
-        spaceBetween: 320,
+        spaceBetween: 303,
       },
       768: {
         slidesPerView: 2,
         centeredSlides: true,
-        spaceBetween: 20,
+        spaceBetween: -120,
       },
       991: {
-        slidesPerView: 2,
-        spaceBetween: 30,
+        slidesPerView: 3,
+        spaceBetween: 0,
       },
       1440: {
         slidesPerView: 3,
-        spaceBetween: 30,
+        spaceBetween: 10,
       },
       1920: {
         slidesPerView: 3,
-        spaceBetween: 40,
+        spaceBetween: 15,
       },
     },
   });

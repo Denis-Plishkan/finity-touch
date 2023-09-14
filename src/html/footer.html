@@ -1,31 +1,60 @@
 <footer class="footer">
+  <div class="mobile__footer-lineTop"></div>
   <div class="footer__container">
     <div class="footer__wrapper footer__desktop">
       <div class="footer__top">
         <div class="footer__menu">
           <ul class="menu__list">
-            <li class="menu__item"><a href="#" class="menu__link">Home</a></li>
+            <li class="menu__item">
+              <a href="./index.html" class="menu__link">Home</a>
+            </li>
             <li class="menu__item">
               <a href="#" class="menu__link">Marketplace</a>
             </li>
-            <li class="menu__item"><a href="#" class="menu__link">Token</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">Fund</a></li>
+            <li class="menu__item">
+              <a href="./token.html" class="menu__link">Token</a>
+            </li>
+            <li class="menu__item">
+              <a href="./fund.html" class="menu__link">Fund</a>
+            </li>
           </ul>
-          <select class="header__select">
-            <option class="header__option" selected>EN</option>
-            <option class="header__option">UA</option>
-            <option class="header__option">FR</option>
-            <option class="header__option">DE</option>
-          </select>
+          <div class="footer__dropdown">
+            <input
+              type="checkbox"
+              id="dropdownFooter-toggle"
+              class="dropdownFooter-toggle"
+            />
+            <label for="dropdownFooter-toggle" class="dropdownFooter-label">
+              EN
+              <span class="caretFooter">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="14"
+                  height="8"
+                  viewBox="0 0 14 8"
+                  fill="none"
+                >
+                  <path d="M1 0.5L6.73913 6.5L13 0.5" stroke="#959595" />
+                </svg>
+              </span>
+            </label>
+            <ul class="dropdownFooter-menu">
+              <li><a href="#">FR</a></li>
+              <li><a href="#">UA</a></li>
+              <li><a href="#">GR</a></li>
+            </ul>
+          </div>
         </div>
         <div class="footer__button-wrapper">
           <div class="header__button-wrapper">
-            <div class="header__button-left">
-              <a href="#" class="button-black">Contact Us</a>
-            </div>
-            <div class="header__button-right">
-              <a href="#" class="button"><span>Buy Token</span></a>
-            </div>
+            <a href="#">
+              <div class="header__button-left button-black">Contact Us</div>
+            </a>
+            <a href="#">
+              <div class="header__button-right button">
+                <span>Buy Token</span>
+              </div>
+            </a>
           </div>
         </div>
       </div>
@@ -42,19 +71,51 @@
           </p>
         </div>
         <div class="footer__bluer">
-          <svg xmlns="http://www.w3.org/2000/svg" width="260" height="270" viewBox="0 0 260 270" fill="none">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="260"
+            height="270"
+            viewBox="0 0 260 270"
+            fill="none"
+          >
             <g filter="url(#filter0_f_2_773)">
-              <path d="M63 63L172.12 100.011L197.069 207L85.9328 188.432L63 63Z" fill="url(#paint0_linear_2_773)"/>
+              <path
+                d="M63 63L172.12 100.011L197.069 207L85.9328 188.432L63 63Z"
+                fill="url(#paint0_linear_2_773)"
+              />
             </g>
             <defs>
-              <filter id="filter0_f_2_773" x="0.931038" y="0.931038" width="258.207" height="268.138" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-                <feGaussianBlur stdDeviation="31.0345" result="effect1_foregroundBlur_2_773"/>
+              <filter
+                id="filter0_f_2_773"
+                x="0.931038"
+                y="0.931038"
+                width="258.207"
+                height="268.138"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="BackgroundImageFix"
+                  result="shape"
+                />
+                <feGaussianBlur
+                  stdDeviation="31.0345"
+                  result="effect1_foregroundBlur_2_773"
+                />
               </filter>
-              <linearGradient id="paint0_linear_2_773" x1="85.0256" y1="63.0001" x2="209.752" y2="91.0701" gradientUnits="userSpaceOnUse">
-                <stop stop-color="#FC84FF"/>
-                <stop offset="1" stop-color="#54D1FA"/>
+              <linearGradient
+                id="paint0_linear_2_773"
+                x1="85.0256"
+                y1="63.0001"
+                x2="209.752"
+                y2="91.0701"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#FC84FF" />
+                <stop offset="1" stop-color="#54D1FA" />
               </linearGradient>
             </defs>
           </svg>
@@ -78,22 +139,24 @@
           <li class="menu__item"><a href="#" class="menu__link">Fund</a></li>
         </ul>
         <div class="mobile__button-wrapper">
-          <div class="mobile__button-left">
-            <a href="#" class="button-black">Contact Us</a>
+          <a href="#">
+            <div class="mobile__button-left button-black">Contact Us</div>
+          </a>
+          <a href="#"> 
+          <div class="mobile__button-right button">
+            <span>Buy Token</span>
           </div>
-          <div class="mobile__button-right">
-            <a href="#" class="button"><span>Buy Token</span></a>
-          </div>
+        </a>
         </div>
       </div>
       <div class="mobile__footer-text">
         <p>
           This website is maintained by Tihon Belenkiy. The contents and
           opinions of this website are those of Finity Touch. Finity Touch
-          provides links to cryptocurrency exchanges as a service to the
-          public
+          provides links to cryptocurrency exchanges as a service to the public
         </p>
       </div>
     </div>
   </div>
+  <div class="mobile__footer-lineBottom"></div>
 </footer>

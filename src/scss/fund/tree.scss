@@ -181,34 +181,50 @@
 
   &__mobile-wrapper {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    row-gap: 62px;
-
-    @media(max-width: 519px) {
-        justify-content: center;
-        row-gap: 39px;
-    }
+    flex-direction: column;
+    gap: 39px;
+    justify-content: center;
+    align-items: center;
   }
 
   &__mobile-title {
     padding-bottom: 27px;
+    text-align: center;
+    padding-top: 28px;
+
+    @media(max-width: 769px) {
+      padding-top: 0;
+      text-align: left;
+    }
     h6 {
       font-family: ChakraPetch;
-      font-size: 25px;
+      font-size: 30px;
       font-style: normal;
       font-weight: 700;
       line-height: normal;
+
+      @media(max-width: 769px) {
+        font-size: 25px;
+      }
     }
   }
 
   &__mobile-text {
     max-width: 245px;
+    margin: 0 auto;
+    text-align: center;
+    @media(max-width: 769px) {
+      text-align: left;
+    }
     p {
-      font-size: 13px;
+      font-size: 18px;
       font-style: normal;
       font-weight: 500;
       line-height: normal;
+
+      @media(max-width: 769px) {
+        font-size: 13px;
+      }
     }
   }
 
@@ -216,10 +232,15 @@
     border-radius: 20px;
     border: 3px solid var(--accent-4, #b2ff0f);
     background: var(--main-black, #0d0d0d);
-    max-width: 245px;
-    height: 144px;
-    padding: 19px 0px 0 18px;
+    width: 400px;
+    height: 220px;
     position: relative;
+
+    @media(max-width: 769px) {
+      max-width: 245px;
+      height: 144px;
+      padding: 19px 0px 0 18px;
+    }
 
     svg {
       position: absolute;
@@ -242,7 +263,11 @@
   &__green-wrapper {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 12px;
+
+    @media(max-width: 376px) {
+      gap: 8px;
+    }
   }
 
   &__title-black {

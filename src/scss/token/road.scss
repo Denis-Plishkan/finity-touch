@@ -8,9 +8,12 @@
   @media (max-width: 1584px) {
     margin-bottom: 393px;
   }
+  @media (max-width: 768px) {
+    margin-bottom: 290px;
+  }
 
   @media (max-width: 473px) {
-    margin-bottom: 192px;
+    margin-bottom: 227px;
   }
   // .road__container
 
@@ -65,6 +68,11 @@
     padding-top: 59px;
     position: absolute;
     right: 43%;
+
+    img {
+      width: 197px;
+      height: 1949.5px;
+    }
   }
 
   &__step-title {
@@ -112,6 +120,11 @@
     position: relative;
     left: 878px;
     bottom: 6px;
+
+    img {
+      width: 657.221px;
+      height: 406px;
+    }
   }
 
   &__step1-wrapper {
@@ -134,6 +147,11 @@
   &__step2 {
     position: relative;
     bottom: 58px;
+
+    img {
+      width: 657.221px;
+      height: 406px;
+    }
   }
 
   &__step2-wrapper {
@@ -164,6 +182,11 @@
     position: relative;
     left: 875px;
     bottom: 137px;
+
+    img {
+      width: 657.221px;
+      height: 406px;
+    }
   }
 
   &__step3-wrapper {
@@ -187,6 +210,11 @@
   &__step4 {
     position: relative;
     bottom: 184px;
+
+    img {
+      width: 657.221px;
+      height: 406px;
+    }
   }
 
   &__step4-wrapper {
@@ -211,11 +239,16 @@
     position: relative;
     left: 875px;
     bottom: 239px;
+
+    img {
+      width: 657.221px;
+      height: 523px;
+    }
   }
 
   &__step5-wrapper {
     position: absolute;
-    top: 41px;
+    top: 38px;
     left: 77px;
     display: flex;
     flex-direction: column;
@@ -234,6 +267,11 @@
   &__step6 {
     position: relative;
     bottom: 257px;
+
+    img {
+      width: 657.221px;
+      height: 406px;
+    }
   }
 
   &__step6-wrapper {
@@ -312,6 +350,10 @@
       @media (max-width: 473px) {
         right: 130px;
       }
+      @media (max-width: 370px) {
+        width: 39px;
+        right: 126px;
+      }
     }
   }
 
@@ -319,17 +361,30 @@
     position: relative;
     left: 64px;
     bottom: 19px;
-    width: 277px;
-    height: 161px;
+    width: 266px;
+    height: 155px;
     background: #0d0d0d;
     border-radius: 10px;
 
+    img {
+      position: absolute;
+      right: -5px;
+      bottom: -6px;
+      @media (max-width: 370px) {
+        width: 270px;
+        bottom: -3px;
+      }
+    }
+
     @media (max-width: 473px) {
-      left: 30px;
+      left: 37px;
+      bottom: 17px;
     }
 
     @media (max-width: 370px) {
-      left: 13px;
+      width: 251px;
+      height: 152px;
+      left: 18px;
     }
   }
 
@@ -337,12 +392,24 @@
     display: flex;
     flex-direction: column;
     gap: 17px;
+
+    @media (max-width: 370px) {
+      gap: 16px;
+    }
   }
 
   &__mobile1-wrapper {
     position: absolute;
     top: 16px;
     left: 25px;
+
+    @media (max-width: 473px) {
+      top: 15px;
+      left: 12px;
+    }
+    @media (max-width: 370px) {
+      top: 10px;
+    }
   }
 
   &__mobile1-step {
@@ -350,28 +417,52 @@
     transform: rotate(-90deg);
     left: -73px;
     top: 65px;
+
+    @media (max-width: 350px) {
+      left: -62px;
+    }
   }
 
   &__mobile2 {
     position: relative;
     left: 64px;
     top: 17px;
-    width: 277px;
-    height: 161px;
+    width: 266px;
+    height: 155px;
     background: #0d0d0d;
     border-radius: 10px;
 
+    img {
+      position: absolute;
+      right: -6px;
+      bottom: -5px;
+      @media (max-width: 370px) {
+        width: 270px;
+        bottom: -3px;
+      }
+    }
+
     @media (max-width: 473px) {
-      left: 30px;
+      left: 37px;
+      top: 24px;
     }
     @media (max-width: 370px) {
       left: 13px;
+    }
+    @media (max-width: 370px) {
+      width: 251px;
+      height: 150px;
+      left: 18px;
     }
   }
 
   &__mobile2-text {
     p {
       font-size: 10px;
+
+      @media (max-width: 1584px) {
+        font-size: 9px;
+      }
     }
   }
 
@@ -379,6 +470,13 @@
     position: absolute;
     top: 16px;
     left: 25px;
+    @media (max-width: 473px) {
+      top: 15px;
+      left: 12px;
+    }
+    @media (max-width: 370px) {
+      top: 10px;
+    }
   }
 
   &__mobile2-step {
@@ -386,22 +484,41 @@
     transform: rotate(-90deg);
     left: -74px;
     top: 63px;
+    @media (max-width: 350px) {
+      left: -62px;
+    }
   }
 
   &__mobile3 {
     position: relative;
     left: 64px;
     top: 51px;
-    width: 277px;
-    height: 161px;
+    width: 266px;
+    height: 155px;
     background: #0d0d0d;
     border-radius: 10px;
 
+    img {
+      position: absolute;
+      right: -6px;
+      bottom: -5px;
+      @media (max-width: 370px) {
+        width: 270px;
+        bottom: -3px;
+      }
+    }
+
     @media (max-width: 473px) {
-      left: 30px;
+      left: 38px;
+      top: 66px;
     }
     @media (max-width: 370px) {
       left: 13px;
+    }
+    @media (max-width: 370px) {
+      width: 251px;
+      height: 150px;
+      left: 18px;
     }
   }
 
@@ -409,6 +526,13 @@
     position: absolute;
     top: 16px;
     left: 25px;
+    @media (max-width: 473px) {
+      top: 13px;
+      left: 11px;
+    }
+    @media (max-width: 370px) {
+      top: 10px;
+    }
   }
 
   &__mobile3-step {
@@ -416,22 +540,41 @@
     transform: rotate(-90deg);
     left: -76px;
     top: 60px;
+    @media (max-width: 350px) {
+      left: -62px;
+    }
   }
 
   &__mobile4 {
     position: relative;
     left: 64px;
     top: 84px;
-    width: 277px;
-    height: 161px;
+    width: 266px;
+    height: 155px;
     background: #0d0d0d;
     border-radius: 10px;
 
+    img {
+      position: absolute;
+      right: -5px;
+      bottom: -6px;
+      @media (max-width: 370px) {
+        width: 270px;
+        bottom: -3px;
+      }
+    }
+
     @media (max-width: 473px) {
-      left: 30px;
+      left: 38px;
+      top: 105px;
     }
     @media (max-width: 370px) {
       left: 13px;
+    }
+    @media (max-width: 370px) {
+      width: 251px;
+      height: 150px;
+      left: 18px;
     }
   }
 
@@ -439,6 +582,13 @@
     position: absolute;
     top: 16px;
     left: 25px;
+    @media (max-width: 473px) {
+      top: 12px;
+      left: 10px;
+    }
+    @media (max-width: 370px) {
+      top: 10px;
+    }
   }
 
   &__mobile4-step {
@@ -446,22 +596,41 @@
     transform: rotate(-90deg);
     left: -74px;
     top: 60px;
+    @media (max-width: 350px) {
+      left: -62px;
+    }
   }
 
   &__mobile5 {
     position: relative;
     left: 64px;
     top: 119px;
-    width: 276px;
-    height: 205px;
+    width: 266px;
+    height: 198px;
     background: #0d0d0d;
     border-radius: 10px;
 
+    img {
+      position: absolute;
+      right: -5px;
+      bottom: -6px;
+      @media (max-width: 370px) {
+        width: 270px;
+        bottom: -3px;
+      }
+    }
+
     @media (max-width: 473px) {
-      left: 30px;
+      left: 37px;
+      top: 145px;
     }
     @media (max-width: 370px) {
       left: 13px;
+    }
+    @media (max-width: 370px) {
+      width: 251px;
+      height: 193px;
+      left: 18px;
     }
   }
 
@@ -470,6 +639,13 @@
     top: 16px;
     left: 25px;
     gap: 15px;
+    @media (max-width: 473px) {
+      top: 12px;
+      left: 11px;
+    }
+    @media (max-width: 370px) {
+      top: 10px;
+    }
   }
 
   &__mobile5-step {
@@ -477,22 +653,41 @@
     transform: rotate(-90deg);
     left: -74px;
     top: 63px;
+    @media (max-width: 350px) {
+      left: -62px;
+    }
   }
 
   &__mobile6 {
     position: relative;
     left: 64px;
     top: 154px;
-    width: 277px;
-    height: 161px;
+    width: 266px;
+    height: 155px;
     background: #0d0d0d;
     border-radius: 10px;
 
+    img {
+      position: absolute;
+      right: -4px;
+      bottom: -5px;
+      @media (max-width: 370px) {
+        width: 270px;
+        bottom: -3px;
+      }
+    }
+
     @media (max-width: 473px) {
-      left: 30px;
+      left: 39px;
+      top: 187px;
     }
     @media (max-width: 370px) {
       left: 13px;
+    }
+    @media (max-width: 370px) {
+      width: 251px;
+      height: 150px;
+      left: 18px;
     }
   }
 
@@ -500,12 +695,24 @@
     position: absolute;
     top: 16px;
     left: 25px;
+    @media (max-width: 473px) {
+      left: 11px;
+      top: 13px;
+    }
+    @media (max-width: 370px) {
+      top: 10px;
+    }
   }
 
   &__mobile6-step {
     position: absolute;
-    left: -85px;
-    top: 53px;
+    left: -104px;
+    top: 77px;
+
+    @media (max-width: 473px) {
+      left: -86px;
+      top: 54px;
+    }
 
     @media (max-width: 374px) {
       transform: rotate(-90deg);

@@ -2,7 +2,7 @@
   margin-bottom: 247px;
 
   @media (max-width: 920px) {
-    margin-bottom: 84px;
+    margin-bottom: 78px;
   }
   // .tokenContact__container
 
@@ -14,7 +14,7 @@
       padding: 0 33px 0 0;
     }
 
-    @media(max-width: 370px) {
+    @media (max-width: 370px) {
       padding: 0;
     }
   }
@@ -41,17 +41,19 @@
 
   &__title {
     padding-top: 22px;
+    padding-bottom: 27px;
     padding-left: 58px;
     text-align: center;
-    @media(max-width: 768px) {
+    @media (max-width: 768px) {
       padding-left: 0;
+      padding-bottom: 0;
     }
     h4 {
       font-size: 50px;
       font-style: normal;
       font-weight: 700;
 
-      @media(max-width: 768px) {
+      @media (max-width: 768px) {
         font-size: 21px;
       }
     }
@@ -61,6 +63,8 @@
     position: absolute;
     top: -43px;
     right: 109px;
+    width: 245px;
+    height: 220px;
 
     @media (max-width: 1530px) {
       display: none;
@@ -71,6 +75,8 @@
     position: absolute;
     top: 348px;
     left: 171px;
+    width: 245px;
+    height: 220px;
 
     @media (max-width: 1530px) {
       display: none;

@@ -72,3 +72,6 @@ import teamSwiper from './modules/swiper.js'
 import cardsSwiper from './modules/swiper.js'
 import thesSwiper from './modules/swiper.js'
 import freqDropdown from './modules/dropdown.js'
+import askedDropdown from './modules/dropdown.js'
+import contactsForm from './modules/form.js'
+

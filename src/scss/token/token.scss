@@ -1,9 +1,9 @@
 .token {
   margin-top: 93px;
-  margin-bottom: 175px;
+  margin-bottom: 165px;
 
   @media (max-width: 998px) {
-    margin-bottom: 68px;
+    margin-bottom: 59px;
   }
   // .token__container
 
@@ -42,12 +42,14 @@
     max-width: 526px;
     display: flex;
 
-    @media (max-width: 769px) {
-      max-width: 100%;
+    @media(max-width: 1413px) {
+      padding-top: 570px;
+      margin: 0 auto;
     }
 
     @media (max-width: 768px) {
       padding-top: 189px;
+      max-width: 340px;
     }
     h1 {
       font-family: ChakraPetch;
@@ -72,7 +74,7 @@
   // .token__title-top
 
   &__title-top {
-    @media (max-width: 769px) {
+    @media (max-width: 1413px) {
       margin: 0 auto;
     }
     @media (max-width: 768px) {
@@ -96,6 +98,9 @@
   &__text {
     max-width: 523px;
     padding-bottom: 42px;
+    @media(max-width: 1413px) {
+      margin: 0 auto;
+    }
     @media (max-width: 769px) {
       max-width: 100%;
       text-align: center;
@@ -105,6 +110,10 @@
       padding-left: 23px;
       max-width: 324px;
       padding-bottom: 26px;
+    }
+    @media (max-width: 376px) {
+      padding-left: 0;
+      max-width: 310px;
     }
     p {
       font-family: ChakraPetch;
@@ -124,6 +133,7 @@
   // .token__button
 
   &__button {
+    
     a {
       border: 2px solid var(--accent-1, #fc84ff);
       padding: 18px;
@@ -131,8 +141,10 @@
       font-style: normal;
       font-weight: 600;
       width: 262px;
-      @media (max-width: 768px) {
+      @media(max-width: 1413px) {
         margin: 0 auto;
+      }
+      @media (max-width: 768px) {
         font-size: 20px;
         padding: 16px 35px;
         width: 209px;
@@ -147,8 +159,9 @@
       left: 0;
       position: absolute;
       top: 0;
+      width: 1920px;
       width: 100%;
-      height: 759px;
+      height: 765px;
       object-fit: cover;
       z-index: -1;
 

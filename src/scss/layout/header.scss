@@ -19,6 +19,7 @@
 
     @media (max-width: 1440px) {
       flex-direction: column;
+      padding: 40px 10px 40px 45px;
     }
 
     @media (max-width: 769px) {
@@ -32,8 +33,13 @@
   &__logo {
     padding-top: 5px;
 
+    @media(max-width: 1440px) {
+      padding-bottom: 20px;
+    }
+
     @media (max-width: 520px) {
       padding-top: 0;
+      padding-bottom: 0;
     }
 
     img {
@@ -43,50 +49,30 @@
     }
   }
 
-  &__select {
-    background: #0d0d0d;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 500;
-
-    @media (max-width: 520px) {
-      background: #2f1947;
-    }
-
-    @media(min-width: 920px) {
-      &:hover {
-        cursor: pointer;
-      }
-    }
-  }
-
-  &__option {
-    @media(max-width: 769px) {
-      font-size: 15px;
-    }
-    
-  }
-
   &__button-wrapper {
     display: flex;
     align-items: center;
     gap: 19px;
 
-    @media (max-width: 520px) {
-      flex-direction: column;
-      gap: 40px;
+    @media (max-width: 768px) {
+      display: none;
     }
+
   }
 
   &__button-right {
-    a {
-      padding: 18px 45px;
-    }
+    padding: 18px 45px;
   }
 
   &__button-left {
-    a {
-      padding: 18px 35px;
+    padding: 18px 35px;
+  }
+
+  &__dropdown {
+    margin-right: 28px;
+
+    @media(max-width: 1124px) {
+      margin-bottom: 20px;
     }
   }
 }
@@ -94,7 +80,7 @@
 .menu {
   display: flex;
   align-items: center;
-  gap: 45px;
+  gap: 14px;
 
   @media (max-width: 1125px) {
     flex-direction: column;
@@ -217,4 +203,57 @@
       }
     }
   }
+}
+
+.dropdown-toggle {
+  display: none; /* Скрываем input */
+}
+
+.dropdown-label {
+  display: inline-block;
+  padding: 12px 27px 10px 26px;
+  cursor: pointer;
+  position: relative;
+  font-size: 22px;
+}
+
+/* Стилизация для стрелки */
+.caret {
+  position: absolute;
+  right: 4px; /* Отступ справа */
+  top: 50%;
+  transform: translateY(-50%);
+  transition: transform 0.2s ease; /* Анимация разворота */
+}
+
+/* Стрелка вверх при активации */
+.dropdown-toggle:checked + .dropdown-label .caret {
+  transform: translateY(-50%) rotate(180deg);
+}
+
+/* Стилизация для выпадающего меню */
+.dropdown-menu {
+  display: none;
+  list-style: none;
+  font-family: Montserrat;
+  width: 84px;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  background-color: #0D0D0D;
+  z-index: 1;
+  text-align: center;
+
+  @media(max-width: 768px) {
+    background: #2f1947;
+  }
+
+  a {
+    font-size: 22px;
+  }
+}
+
+.dropdown-toggle:checked + .dropdown-label + .dropdown-menu {
+  display: block;
+  border-top: none;
 }

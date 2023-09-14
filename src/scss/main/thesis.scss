@@ -1,15 +1,19 @@
 .thesis {
 
     @media(max-width: 376px) {
-        margin-bottom: 31px;
+        margin-bottom: 22px;
     }
   // .thesis__container
 
   &__container {
-    padding: 0 17px;
+    padding: 0 9px;
 
     @media(max-width: 376px) {
-        padding: 0 0 0 51px;
+        padding: 0 0 0 42px;
+    }
+
+    @media(max-width: 350px) {
+      padding: 0 0 0 20px;
     }
   }
 
@@ -18,15 +22,15 @@
   &__title {
     text-align: center;
     padding-right: 53px;
-    padding-bottom: 47px;
+    padding-bottom: 37px;
 
     @media(max-width: 768px) {
         padding-right: 0;
     }
     @media(max-width: 376px) {
         text-align: left;
-        padding-left: 7px;
-        padding-bottom: 31px;
+        padding-left: 18px;
+        padding-bottom: 25px;
     }
     h2 {
       font-family: ChakraPetch;
@@ -58,6 +62,7 @@
   // .thesis__swiper
 
   &__swiper {
+    padding: 10px;
     @media(max-width: 376px) {
         padding-left: 34px;
     }
@@ -67,7 +72,7 @@
 
   &__card-wrapper {
     width: 350px;
-    min-height: 348px;
+    min-height: 347px;
     border-radius: 60px;
     border: 1px solid #86affe;
     box-shadow: 2px 2px 9px 0px #91009d;
@@ -77,7 +82,7 @@
     justify-content: space-between;
 
     @media(max-width: 768px) {
-        min-height: 219px;
+        min-height: 216px;
         width: 238px;
         padding: 15px;
     }
@@ -174,4 +179,8 @@
 }
 .swiper-button-next {
     opacity: 0;
+}
+
+.swiper-slide {
+  padding: 10px;
 }

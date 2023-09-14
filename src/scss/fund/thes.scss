@@ -1,14 +1,20 @@
 .thes {
+  margin-bottom: 92px;
   @media (max-width: 376px) {
-    margin-bottom: 67px;
+    margin-bottom: 57px;
   }
   &__container {
+    padding: 0 9px 0 10px;
     @media (max-width: 376px) {
-      padding-left: 34px;
-    }
-
-    @media(max-width: 370px) {
+      padding: 0;
       padding-left: 25px;
     }
+    @media(max-width: 330px) {
+      padding-left: 0;
+      padding: 0;
+    }
+  }
+  &__cards-wrapper {
+    border: 1px solid #B2FF0F;
   }
 }
