@@ -8,9 +8,9 @@ function thesisSwiper() {
     spaceBetween: 24,
     slidesPerview: 'auto',
     loop: true,
-    // autoplay: {
-    //   delay: 1000,
-    // },
+    autoplay: {
+      delay: 1000,
+    },
 
     breakpoints: {
       320: {
@@ -49,27 +49,27 @@ function partnersSwiper() {
     spaceBetween: 24,
     slidesPerview: 'auto',
     loop: true,
-    // autoplay: {
-    //   delay: 1000,
-    // },
+    autoplay: {
+      delay: 1000,
+    },
 
     breakpoints: {
       320: {
         slidesPerView: 2,
-        spaceBetween: 10,
+        spaceBetween: 0,
       },
       375: {
         slidesPerView: 2,
         spaceBetween: 10,
       },
       768: {
-        slidesPerView: 2,
+        slidesPerView: 3,
         centeredSlides: true,
         spaceBetween: -30,
       },
       991: {
-        slidesPerView: 6,
-        spaceBetween: 5,
+        slidesPerView: 4,
+        spaceBetween: 0,
       },
       1440: {
         slidesPerView: 6,
@@ -91,9 +91,9 @@ function teamSwiper() {
     spaceBetween: 24,
     slidesPerview: 'auto',
     loop: true,
-    // autoplay: {
-    //   delay: 1000,
-    // },
+    autoplay: {
+      delay: 1000,
+    },
     navigation: {
       nextEl: '.team__swiper-next',
       prevEl: '.team__swiper-prev',
@@ -109,9 +109,8 @@ function teamSwiper() {
         spaceBetween: 0,
       },
       768: {
-        slidesPerView: 2,
-        centeredSlides: true,
-        spaceBetween: -140,
+        slidesPerView: 4,
+        spaceBetween: 0,
       },
       991: {
         slidesPerView: 2,
@@ -136,14 +135,14 @@ function cardsSwiper() {
     spaceBetween: 24,
     slidesPerview: 'auto',
     loop: true,
-    // autoplay: {
-    //   delay: 1000,
-    // },
+    autoplay: {
+      delay: 1000,
+    },
 
     breakpoints: {
       320: {
         slidesPerView: 2,
-        spaceBetween: 270,
+        spaceBetween: 260,
       },
       375: {
         slidesPerView: 2,
@@ -178,14 +177,14 @@ function thesSwiper() {
     spaceBetween: 24,
     slidesPerview: 'auto',
     loop: true,
-    // autoplay: {
-    //   delay: 1000,
-    // },
+    autoplay: {
+      delay: 1000,
+    },
 
     breakpoints: {
       320: {
         slidesPerView: 2,
-        spaceBetween: 275,
+        spaceBetween: 250,
       },
       375: {
         slidesPerView: 2,

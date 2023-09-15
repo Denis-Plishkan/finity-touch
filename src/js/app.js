@@ -74,4 +74,6 @@ import thesSwiper from './modules/swiper.js'
 import freqDropdown from './modules/dropdown.js'
 import askedDropdown from './modules/dropdown.js'
 import contactsForm from './modules/form.js'
+import formFocus from './modules/formFocus.js'
+
 

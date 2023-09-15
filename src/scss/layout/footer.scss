@@ -35,7 +35,15 @@
   &__menu {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 52px;
+  }
+
+  &__menu-list {
+    gap: 41px;
+
+    &::after {
+      right: -42px;
+    }
   }
 
   &__bottom {

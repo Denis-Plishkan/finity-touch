@@ -69,10 +69,10 @@
   }
 
   &__dropdown {
-    margin-right: 28px;
+    margin-left: 9px;
 
-    @media(max-width: 1124px) {
-      margin-bottom: 20px;
+    @media(max-width: 1125px) {
+      margin-left: 0;
     }
   }
 }
@@ -80,10 +80,10 @@
 .menu {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 45px;
 
   @media (max-width: 1125px) {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   @media (max-width: 769px) {
@@ -113,13 +113,15 @@
 
   &__list {
     display: flex;
-    gap: 41px;
+    gap: 42px;
     position: relative;
     align-items: center;
     &::after {
       content: "";
+      position: absolute;
       border: 1px solid #fff;
       height: 46px;
+      right: 97px;
 
       @media (max-width: 1125px) {
         display: none;
@@ -206,7 +208,7 @@
 }
 
 .dropdown-toggle {
-  display: none; /* Скрываем input */
+  display: none; 
 }
 
 .dropdown-label {
@@ -217,21 +219,18 @@
   font-size: 22px;
 }
 
-/* Стилизация для стрелки */
 .caret {
   position: absolute;
-  right: 4px; /* Отступ справа */
+  right: 4px; 
   top: 50%;
   transform: translateY(-50%);
-  transition: transform 0.2s ease; /* Анимация разворота */
+  transition: transform 0.2s ease; 
 }
 
-/* Стрелка вверх при активации */
 .dropdown-toggle:checked + .dropdown-label .caret {
   transform: translateY(-50%) rotate(180deg);
 }
 
-/* Стилизация для выпадающего меню */
 .dropdown-menu {
   display: none;
   list-style: none;
@@ -254,6 +253,8 @@
 }
 
 .dropdown-toggle:checked + .dropdown-label + .dropdown-menu {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
   border-top: none;
 }

@@ -1,5 +1,5 @@
 .freq {
-  margin-top: 142px;
+  margin-top: 152px;
 
   @media (max-width: 376px) {
     margin-top: 74px;
@@ -131,6 +131,7 @@
     max-height: 500px;
     visibility: visible;
     height: 100%;
+    transition: all 0.4s;
   }
 }
 
@@ -148,6 +149,7 @@
     }
 
     svg {
+      transition: all 0.2s ease;
       @media (max-width: 376px) {
         width: 18px;
       }
