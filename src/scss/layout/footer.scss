@@ -20,7 +20,7 @@
     right: -304px;
     top: -168px;
 
-    @media(max-width: 1730px) {
+    @media (max-width: 1730px) {
       right: -281px;
     }
   }
@@ -72,7 +72,7 @@
     width: 124px;
     height: 110px;
 
-    @media(max-width: 1730px) {
+    @media (max-width: 1730px) {
       right: -200px;
     }
   }
@@ -99,7 +99,7 @@
     height: 1px;
     display: none;
     bottom: 13px;
-    @media(max-width: 1200px) {
+    @media (max-width: 1200px) {
       display: block;
     }
 
@@ -109,7 +109,7 @@
       top: 0;
       left: 0;
       width: 100%;
-      height: 1px; 
+      height: 1px;
       background-color: #fff;
     }
   }
@@ -118,8 +118,8 @@
     position: relative;
     width: 100%;
     height: 1px;
-    display: none; 
-    @media(max-width: 1200px) {
+    display: none;
+    @media (max-width: 1200px) {
       display: block;
     }
 
@@ -129,10 +129,9 @@
       top: 0;
       left: 0;
       width: 100%;
-      height: 1px; 
+      height: 1px;
       background-color: #fff;
     }
-
   }
   &__footer-menu {
     display: flex;
@@ -230,7 +229,7 @@
 }
 
 .dropdownFooter-toggle {
-  display: none; /* Скрываем input */
+  display: none;
 }
 
 .dropdownFooter-label {
@@ -239,23 +238,20 @@
   cursor: pointer;
   position: relative;
   font-size: 22px;
+
+  svg {
+    position: absolute;
+    right: 4px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: transform 0.2s ease;
+  }
 }
 
-/* Стилизация для стрелки */
-.caretFooter {
-  position: absolute;
-  right: 4px; /* Отступ справа */
-  top: 50%;
-  transform: translateY(-50%);
-  transition: transform 0.2s ease; /* Анимация разворота */
-}
-
-/* Стрелка вверх при активации */
-.dropdownFooter-toggle:checked + .dropdownFooter-label .caretFooter {
+.dropdownFooter-toggle:checked + .dropdownFooter-label svg {
   transform: translateY(-50%) rotate(180deg);
 }
 
-/* Стилизация для выпадающего меню */
 .dropdownFooter-menu {
   display: none;
   list-style: none;
@@ -278,6 +274,8 @@
 }
 
 .dropdownFooter-toggle:checked + .dropdownFooter-label + .dropdownFooter-menu {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
   border-top: none;
 }

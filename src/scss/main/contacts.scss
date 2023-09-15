@@ -2,10 +2,16 @@
   margin-top: 143px;
   padding-bottom: 89px;
 
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     margin-top: 100px;
     margin-bottom: 71px;
     padding-bottom: 0;
+  }
+  @media (max-width: 768px) {
+   margin-top: 260px;
+  }
+  @media (max-width: 376px) {
+   margin-top: 100px;
   }
   // .contacts__container
 

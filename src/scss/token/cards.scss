@@ -8,6 +8,13 @@
 
   &__container {
     padding: 0 7px 0 7px;
+
+    @media(max-width: 991px) {
+      padding-left: 115px;
+    }
+    @media(max-width: 768px) {
+      padding-left: 0;
+    }
     @media(max-width: 376px) {
         padding: 0 0 0 24px;
     }
@@ -47,7 +54,7 @@
       border-radius: 40px;
     }
 
-    @media(max-width: 370px) {
+    @media(max-width: 375px) {
       width: 270px;
     }
     @media(max-width: 350px) {
@@ -94,6 +101,9 @@
 
       @media (max-width: 1230px) {
         font-size: 12px;
+      }
+      @media (max-width: 375px) {
+        font-size: 11px;
       }
     }
   }

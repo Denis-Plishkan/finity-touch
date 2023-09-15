@@ -5,13 +5,12 @@ function contactsForm () {
         const input = contactForm.querySelector('input');
         const span = contactForm.querySelector('span');
 
-        input.addEventListener("input", () => {
-            if(input.value.trim() !== '') {
-                span.classList.add('active');
-            } else {
-                span.classList.remove('active');
-            }
+        input.addEventListener("focus", () => {
+            span.classList.add('active');
         })
+        input.addEventListener("blur", () => {
+            span.classList.remove('active');
+        }) 
     })
 }
 

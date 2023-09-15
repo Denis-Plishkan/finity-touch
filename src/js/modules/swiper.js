@@ -9,7 +9,7 @@ function thesisSwiper() {
     slidesPerview: 'auto',
     loop: true,
     autoplay: {
-      delay: 1000,
+      delay: 1500,
     },
 
     breakpoints: {
@@ -19,20 +19,20 @@ function thesisSwiper() {
       },
       375: {
         slidesPerView: 2,
-        spaceBetween: 248,
+        spaceBetween: 248
       },
       768: {
         slidesPerView: 2,
-        centeredSlides: true,
-        spaceBetween: -20,
+        spaceBetween: 0,
       },
       991: {
-        slidesPerView: 2,
-        spaceBetween: -200,
+        slidesPerView: 3,
+        spaceBetween: 0,
       },
       1440: {
         slidesPerView: 3,
-        spaceBetween: -80,
+        centeredSlides: true,
+        spaceBetween: 0,
       },
       1920: {
         slidesPerView: 4,
@@ -60,24 +60,23 @@ function partnersSwiper() {
       },
       375: {
         slidesPerView: 2,
-        spaceBetween: 10,
+        spaceBetween: 0,
       },
       768: {
-        slidesPerView: 3,
-        centeredSlides: true,
-        spaceBetween: -30,
+        slidesPerView: 2,
+        spaceBetween: 0,
       },
       991: {
-        slidesPerView: 4,
+        slidesPerView: 3,
         spaceBetween: 0,
       },
       1440: {
-        slidesPerView: 6,
-        spaceBetween: 10,
+        slidesPerView: 4,
+        spaceBetween: 0,
       },
       1920: {
-        slidesPerView: 6,
-        spaceBetween: 80,
+        slidesPerView: 4,
+        spaceBetween: 0,
       },
     },
   });
@@ -92,7 +91,7 @@ function teamSwiper() {
     slidesPerview: 'auto',
     loop: true,
     autoplay: {
-      delay: 1000,
+      delay: 1700,
     },
     navigation: {
       nextEl: '.team__swiper-next',
@@ -109,7 +108,7 @@ function teamSwiper() {
         spaceBetween: 0,
       },
       768: {
-        slidesPerView: 4,
+        slidesPerView: 3,
         spaceBetween: 0,
       },
       991: {
@@ -136,7 +135,7 @@ function cardsSwiper() {
     slidesPerview: 'auto',
     loop: true,
     autoplay: {
-      delay: 1000,
+      delay: 1200,
     },
 
     breakpoints: {
@@ -146,12 +145,12 @@ function cardsSwiper() {
       },
       375: {
         slidesPerView: 2,
-        spaceBetween: 310,
+        spaceBetween: 300,
       },
       768: {
         slidesPerView: 2,
         centeredSlides: true,
-        spaceBetween: -120,
+        spaceBetween: 0,
       },
       991: {
         slidesPerView: 3,
@@ -192,8 +191,7 @@ function thesSwiper() {
       },
       768: {
         slidesPerView: 2,
-        centeredSlides: true,
-        spaceBetween: -120,
+        spaceBetween: 0,
       },
       991: {
         slidesPerView: 3,
