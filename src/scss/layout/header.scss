@@ -229,10 +229,6 @@
   }
 }
 
-.dropdown-toggle:checked + .dropdown-label svg {
-  transform: translateY(-50%) rotate(180deg);
-}
-
 .dropdown-menu {
   display: none;
   list-style: none;
@@ -254,9 +250,13 @@
   }
 }
 
-.dropdown-toggle:checked + .dropdown-label + .dropdown-menu {
+.header__dropdown .dropdown-menu.active {
   display: flex;
   flex-direction: column;
   gap: 5px;
   border-top: none;
+}
+
+.header__dropdown .dropdown-label.active svg {
+  transform: translateY(-50%) rotate(180deg);
 }

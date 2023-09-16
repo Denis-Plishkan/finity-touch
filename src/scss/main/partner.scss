@@ -45,5 +45,9 @@
       width: 160px;
       height: 70px;
     }
+    @media (max-width: 374px) {
+      width: 140px;
+      height: 65px;
+    }
   }
 }
