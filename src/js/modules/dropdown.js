@@ -58,3 +58,27 @@ function headerDropdown() {
 }
 
 headerDropdown();
+
+
+function footerDropdown() {
+  const dropdown = document.querySelector(".footer__dropdown");
+  const items = dropdown.querySelectorAll(".dropdownFooter-menu li");
+  const labelText = dropdown.querySelector(".label-text");
+  const label = dropdown.querySelector(".dropdownFooter-label");
+  const menu = dropdown.querySelector(".dropdownFooter-menu");
+
+  label.addEventListener("click", () => {
+    menu.classList.toggle("active");
+    label.classList.toggle("active");
+  });
+
+  items.forEach((item) => {
+    item.addEventListener("click", (e) => {
+      labelText.textContent = e.target.textContent;
+      menu.classList.remove("active");
+      label.classList.remove("active");
+    });
+  });
+}
+
+footerDropdown();
